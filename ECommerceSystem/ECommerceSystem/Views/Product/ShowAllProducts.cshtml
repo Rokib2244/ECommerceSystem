@@ -1,0 +1,15 @@
+﻿@model ProductListModel
+@{
+    ViewData["Title"] = "ShowAllProducts";
+}
+
+<h1>ShowAllProducts</h1>
+@{
+    foreach (var product in Model.Products)
+    {
+        <h1>@product.ProductName</h1>
+        <h1>@product.Price</h1>
+
+    }
+}
+

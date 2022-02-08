@@ -9,16 +9,12 @@ namespace ECommerceSystem.Data
 {
     public class UnitOfWork : IUnitOfWork
     {
-        private DbContext _context;
-        public UnitOfWork(DbContext context)
-        {
-            _context = context;
-        }
-        public void Save()
-        {
-            _context.SaveChanges();
-            
-        }
+        private DbContext _dbcontext;
+        public UnitOfWork(DbContext dbcontext) => _dbcontext = dbcontext;
+        public void Dispose() => _dbcontext?.Dispose();
+
+        public void Save() => _dbcontext?.SaveChanges();
+       
 
        
     }

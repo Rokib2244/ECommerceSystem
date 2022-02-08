@@ -1,6 +1,8 @@
 ﻿using Autofac;
 using ECommerceSystem.Training.Contexts;
 using ECommerceSystem.Training.Services;
+using ECommerceSystem.Training.Repositories;
+using ECommerceSystem.Training.UnitOfWorks;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -23,6 +25,14 @@ namespace ECommerceSystem.Training
             builder.RegisterType<TrainingContext>().AsSelf()
                 .WithParameter("connectionString", _connectionString)
                 .WithParameter("migrationAssemblyName", _migrationAssemblyName)
+                .InstancePerLifetimeScope();
+            builder.RegisterType<TrainingContext>().As<ITrainingContext>()
+                .WithParameter("connectionString", _connectionString)
+                .WithParameter("migrationAssemblyName", _migrationAssemblyName)
+                .InstancePerLifetimeScope();
+            builder.RegisterType<ProductRepository>().As<IProductRepository>()
+                .InstancePerLifetimeScope();
+            builder.RegisterType<TrainingUnitOfWork>().As<ITrainingUnitOfWork>()
                 .InstancePerLifetimeScope();
             builder.RegisterType<ProductService>().As<IProductService>()
                 .InstancePerLifetimeScope();

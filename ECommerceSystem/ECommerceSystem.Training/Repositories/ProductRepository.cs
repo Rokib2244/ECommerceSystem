@@ -10,9 +10,9 @@ using System.Threading.Tasks;
 
 namespace ECommerceSystem.Training.Repositories
 {
-    public class ProductRepository : Repository<Product>
+    public class ProductRepository : Repository<Product, int>, IProductRepository
     {
-        public ProductRepository(TrainingContext context):base(context)
+        public ProductRepository(TrainingContext context):base((DbContext)context)
         {
 
         }

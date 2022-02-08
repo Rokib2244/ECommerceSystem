@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "E:\\Practice of Full CRUD\\ECommerceSystem\\ECommerceSystem\\ECommerceSystem.csproj": {}
+    "E:\\ECommerceSystem\\ECommerceSystem\\ECommerceSystem\\ECommerceSystem.csproj": {}
   },
   "projects": {
-    "E:\\Practice of Full CRUD\\ECommerceSystem\\ECommerceSystem.Data\\ECommerceSystem.Data.csproj": {
+    "E:\\ECommerceSystem\\ECommerceSystem\\ECommerceSystem.Data\\ECommerceSystem.Data.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\Practice of Full CRUD\\ECommerceSystem\\ECommerceSystem.Data\\ECommerceSystem.Data.csproj",
+        "projectUniqueName": "E:\\ECommerceSystem\\ECommerceSystem\\ECommerceSystem.Data\\ECommerceSystem.Data.csproj",
         "projectName": "ECommerceSystem.Data",
-        "projectPath": "E:\\Practice of Full CRUD\\ECommerceSystem\\ECommerceSystem.Data\\ECommerceSystem.Data.csproj",
+        "projectPath": "E:\\ECommerceSystem\\ECommerceSystem\\ECommerceSystem.Data\\ECommerceSystem.Data.csproj",
         "packagesPath": "C:\\Users\\DELL\\.nuget\\packages\\",
-        "outputPath": "E:\\Practice of Full CRUD\\ECommerceSystem\\ECommerceSystem.Data\\obj\\",
+        "outputPath": "E:\\ECommerceSystem\\ECommerceSystem\\ECommerceSystem.Data\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\DELL\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -47,6 +47,10 @@
             "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
               "version": "[5.0.8, )"
+            },
+            "System.Linq.Dynamic.Core": {
+              "target": "Package",
+              "version": "[1.2.15, )"
             }
           },
           "imports": [
@@ -68,14 +72,14 @@
         }
       }
     },
-    "E:\\Practice of Full CRUD\\ECommerceSystem\\ECommerceSystem.Training\\ECommerceSystem.Training.csproj": {
+    "E:\\ECommerceSystem\\ECommerceSystem\\ECommerceSystem.Training\\ECommerceSystem.Training.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\Practice of Full CRUD\\ECommerceSystem\\ECommerceSystem.Training\\ECommerceSystem.Training.csproj",
+        "projectUniqueName": "E:\\ECommerceSystem\\ECommerceSystem\\ECommerceSystem.Training\\ECommerceSystem.Training.csproj",
         "projectName": "ECommerceSystem.Training",
-        "projectPath": "E:\\Practice of Full CRUD\\ECommerceSystem\\ECommerceSystem.Training\\ECommerceSystem.Training.csproj",
+        "projectPath": "E:\\ECommerceSystem\\ECommerceSystem\\ECommerceSystem.Training\\ECommerceSystem.Training.csproj",
         "packagesPath": "C:\\Users\\DELL\\.nuget\\packages\\",
-        "outputPath": "E:\\Practice of Full CRUD\\ECommerceSystem\\ECommerceSystem.Training\\obj\\",
+        "outputPath": "E:\\ECommerceSystem\\ECommerceSystem\\ECommerceSystem.Training\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\DELL\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -92,8 +96,8 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "E:\\Practice of Full CRUD\\ECommerceSystem\\ECommerceSystem.Data\\ECommerceSystem.Data.csproj": {
-                "projectPath": "E:\\Practice of Full CRUD\\ECommerceSystem\\ECommerceSystem.Data\\ECommerceSystem.Data.csproj"
+              "E:\\ECommerceSystem\\ECommerceSystem\\ECommerceSystem.Data\\ECommerceSystem.Data.csproj": {
+                "projectPath": "E:\\ECommerceSystem\\ECommerceSystem\\ECommerceSystem.Data\\ECommerceSystem.Data.csproj"
               }
             }
           }
@@ -136,14 +140,14 @@
         }
       }
     },
-    "E:\\Practice of Full CRUD\\ECommerceSystem\\ECommerceSystem\\ECommerceSystem.csproj": {
+    "E:\\ECommerceSystem\\ECommerceSystem\\ECommerceSystem\\ECommerceSystem.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\Practice of Full CRUD\\ECommerceSystem\\ECommerceSystem\\ECommerceSystem.csproj",
+        "projectUniqueName": "E:\\ECommerceSystem\\ECommerceSystem\\ECommerceSystem\\ECommerceSystem.csproj",
         "projectName": "ECommerceSystem",
-        "projectPath": "E:\\Practice of Full CRUD\\ECommerceSystem\\ECommerceSystem\\ECommerceSystem.csproj",
+        "projectPath": "E:\\ECommerceSystem\\ECommerceSystem\\ECommerceSystem\\ECommerceSystem.csproj",
         "packagesPath": "C:\\Users\\DELL\\.nuget\\packages\\",
-        "outputPath": "E:\\Practice of Full CRUD\\ECommerceSystem\\ECommerceSystem\\obj\\",
+        "outputPath": "E:\\ECommerceSystem\\ECommerceSystem\\ECommerceSystem\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\DELL\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -160,8 +164,8 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "E:\\Practice of Full CRUD\\ECommerceSystem\\ECommerceSystem.Training\\ECommerceSystem.Training.csproj": {
-                "projectPath": "E:\\Practice of Full CRUD\\ECommerceSystem\\ECommerceSystem.Training\\ECommerceSystem.Training.csproj"
+              "E:\\ECommerceSystem\\ECommerceSystem\\ECommerceSystem.Training\\ECommerceSystem.Training.csproj": {
+                "projectPath": "E:\\ECommerceSystem\\ECommerceSystem\\ECommerceSystem.Training\\ECommerceSystem.Training.csproj"
               }
             }
           }

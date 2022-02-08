@@ -1,10 +1,11 @@
 ﻿using ECommerceSystem.Data;
 using ECommerceSystem.Training.Entities;
+using ECommerceSystem.Training.Repositories;
 
 namespace ECommerceSystem.Training.UnitOfWorks
 {
     public interface ITrainingUnitOfWork :IUnitOfWork
     {
-        IRepository<Product> Products { get; }
+        IProductRepository Products { get; }
     }
 }

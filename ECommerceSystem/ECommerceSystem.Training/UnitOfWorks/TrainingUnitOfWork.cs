@@ -12,10 +12,11 @@ namespace ECommerceSystem.Training.UnitOfWorks
 {
     public class TrainingUnitOfWork : UnitOfWork, ITrainingUnitOfWork
     {
-        public IRepository<Product> Products { get; private set; }
-        public TrainingUnitOfWork(TrainingContext context) : base(context)
+        public IProductRepository Products { get; private set; }
+        public TrainingUnitOfWork(TrainingContext context,
+            IProductRepository products) : base(context)
         {
-            Products = new ProductRepository(context);
+            Products = products;
         }
 
     }

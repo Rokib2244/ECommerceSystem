@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "e46I+yFrsN0HYQrbKqyKFjAhY6+DxALsepe7Pb3tR7lZQNsKduz15b1LxWzB1e2oCmq51ezfs59kS9siEaxywA==",
+  "dgSpecHash": "xbT4vN8MxChoFkC5rCg6dw1q+85CVuitf4+aMH0pDMRScGCpVwliNXIGutDYV26Ok0454s/JzsyRrduDynsS1g==",
   "success": true,
-  "projectFilePath": "E:\\Practice of Full CRUD\\ECommerceSystem\\ECommerceSystem.Training\\ECommerceSystem.Training.csproj",
+  "projectFilePath": "E:\\ECommerceSystem\\ECommerceSystem\\ECommerceSystem.Training\\ECommerceSystem.Training.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\DELL\\.nuget\\packages\\autofac\\6.3.0\\autofac.6.3.0.nupkg.sha512",
     "C:\\Users\\DELL\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",
@@ -57,6 +57,7 @@
     "C:\\Users\\DELL\\.nuget\\packages\\system.io.filesystem\\4.3.0\\system.io.filesystem.4.3.0.nupkg.sha512",
     "C:\\Users\\DELL\\.nuget\\packages\\system.io.filesystem.primitives\\4.3.0\\system.io.filesystem.primitives.4.3.0.nupkg.sha512",
     "C:\\Users\\DELL\\.nuget\\packages\\system.linq\\4.3.0\\system.linq.4.3.0.nupkg.sha512",
+    "C:\\Users\\DELL\\.nuget\\packages\\system.linq.dynamic.core\\1.2.15\\system.linq.dynamic.core.1.2.15.nupkg.sha512",
     "C:\\Users\\DELL\\.nuget\\packages\\system.linq.expressions\\4.3.0\\system.linq.expressions.4.3.0.nupkg.sha512",
     "C:\\Users\\DELL\\.nuget\\packages\\system.net.nameresolution\\4.3.0\\system.net.nameresolution.4.3.0.nupkg.sha512",
     "C:\\Users\\DELL\\.nuget\\packages\\system.net.primitives\\4.3.0\\system.net.primitives.4.3.0.nupkg.sha512",

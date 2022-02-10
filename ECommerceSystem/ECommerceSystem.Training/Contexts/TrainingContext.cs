@@ -28,7 +28,17 @@ namespace ECommerceSystem.Training.Contexts
             }
             base.OnConfiguring(dbContextOptionsBuilder);
         }
+        protected override void OnModelCreating(ModelBuilder modelBuilder)
+        {
+            //one to many relationship
+            modelBuilder.Entity<Category>()
+                .HasMany(p => p.Products)
+                .WithOne(c => c.Category)
+                .HasForeignKey(c => c.CategoryId);
+            base.OnModelCreating(modelBuilder);
+        }
         public DbSet<Product> Products { get; set; }
+        public DbSet<Category> Categories { get; set; }
 
     }
 }

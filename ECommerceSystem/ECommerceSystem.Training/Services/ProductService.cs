@@ -42,5 +42,24 @@ namespace ECommerceSystem.Training.Services
                 );
             _trainingUnitOfWork.Save();
         }
+        public void CustomerPurchased( Product product, Customer customer)
+        {
+            var productEntity =  _trainingUnitOfWork.Products.GetById(product.Id);
+
+            if (productEntity == null)
+                throw new InvalidOperationException("Product was not found.");
+            if (productEntity.CustomerPurchase == null)
+                productEntity.CustomerPurchase = new List<Entities.ProductCustomers>();
+
+            productEntity.CustomerPurchase.Add(new Entities.ProductCustomers {
+                Customer = new Entities.Customer
+                {
+                    CustomerName = customer.CustomerName,
+                    ContactNumber = customer.ContactNumber,
+                    Address = customer.Address
+                }
+            });
+            _trainingUnitOfWork.Save();
+        }
     }
 }

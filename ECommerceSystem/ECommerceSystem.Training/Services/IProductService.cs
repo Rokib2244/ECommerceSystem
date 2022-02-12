@@ -10,5 +10,6 @@ namespace ECommerceSystem.Training.Services
     public interface IProductService
     {
         IList<Product> GetAllProudcts();
+        void CustomerPurchased (Product product, Customer customer);
     }
 }

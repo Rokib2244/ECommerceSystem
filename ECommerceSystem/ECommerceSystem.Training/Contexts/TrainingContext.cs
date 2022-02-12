@@ -35,10 +35,26 @@ namespace ECommerceSystem.Training.Contexts
                 .HasMany(p => p.Products)
                 .WithOne(c => c.Category)
                 .HasForeignKey(c => c.CategoryId);
+            
+
+            modelBuilder.Entity<ProductCustomers>()
+                .HasKey(pc => new { pc.CustomerId, pc.ProductId });
+
+            modelBuilder.Entity<ProductCustomers>()
+                .HasOne( pc => pc.Customer)
+                .WithMany(c => c.PurchasedProduct)
+                .HasForeignKey( pc => pc.CustomerId);
+
+            modelBuilder.Entity<ProductCustomers>()
+                .HasOne( pc => pc.Product)
+                .WithMany( p => p.CustomerPurchase)
+                .HasForeignKey( pc => pc.ProductId);
+
             base.OnModelCreating(modelBuilder);
         }
         public DbSet<Product> Products { get; set; }
         public DbSet<Category> Categories { get; set; }
+        public DbSet<Customer> Customers { get; set; }
 
     }
 }

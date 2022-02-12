@@ -3,14 +3,16 @@ using ECommerceSystem.Training.Contexts;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
-namespace ECommerceSystem.Data.Migrations
+namespace ECommerceSystem.Migrations.Training
 {
     [DbContext(typeof(TrainingContext))]
-    partial class TrainingContextModelSnapshot : ModelSnapshot
+    [Migration("20220211140326_AddCustomer")]
+    partial class AddCustomer
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -77,21 +79,6 @@ namespace ECommerceSystem.Data.Migrations
                     b.ToTable("Products");
                 });
 
-            modelBuilder.Entity("ECommerceSystem.Training.Entities.ProductCustomers", b =>
-                {
-                    b.Property<int>("CustomerId")
-                        .HasColumnType("int");
-
-                    b.Property<int>("ProductId")
-                        .HasColumnType("int");
-
-                    b.HasKey("CustomerId", "ProductId");
-
-                    b.HasIndex("ProductId");
-
-                    b.ToTable("ProductCustomers");
-                });
-
             modelBuilder.Entity("ECommerceSystem.Training.Entities.Product", b =>
                 {
                     b.HasOne("ECommerceSystem.Training.Entities.Category", "Category")
@@ -103,38 +90,9 @@ namespace ECommerceSystem.Data.Migrations
                     b.Navigation("Category");
                 });
 
-            modelBuilder.Entity("ECommerceSystem.Training.Entities.ProductCustomers", b =>
-                {
-                    b.HasOne("ECommerceSystem.Training.Entities.Customer", "Customer")
-                        .WithMany("PurchasedProduct")
-                        .HasForeignKey("CustomerId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-
-                    b.HasOne("ECommerceSystem.Training.Entities.Product", "Product")
-                        .WithMany("CustomerPurchase")
-                        .HasForeignKey("ProductId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-
-                    b.Navigation("Customer");
-
-                    b.Navigation("Product");
-                });
-
             modelBuilder.Entity("ECommerceSystem.Training.Entities.Category", b =>
                 {
                     b.Navigation("Products");
-                });
-
-            modelBuilder.Entity("ECommerceSystem.Training.Entities.Customer", b =>
-                {
-                    b.Navigation("PurchasedProduct");
-                });
-
-            modelBuilder.Entity("ECommerceSystem.Training.Entities.Product", b =>
-                {
-                    b.Navigation("CustomerPurchase");
                 });
 #pragma warning restore 612, 618
         }

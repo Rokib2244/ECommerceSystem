@@ -6,10 +6,11 @@ using System.Threading.Tasks;
 
 namespace ECommerceSystem.Training.BusinessObjects
 {
-    public class Product
+   public class Customer
     {
         public int Id { get; set; }
-        public string ProductName { get; set; }
-        public double Price { get; set; }
+        public string CustomerName { get; set; }
+        public string Address { get; set; }
+        public double ContactNumber { get; set; }
     }
 }

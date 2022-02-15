@@ -1,5 +1,6 @@
 ﻿using ECommerceSystem.Training.BusinessObjects;
 using ECommerceSystem.Training.Contexts;
+using ECommerceSystem.Training.Exceptions;
 using ECommerceSystem.Training.UnitOfWorks;
 using System;
 using System.Collections.Generic;
@@ -33,14 +34,23 @@ namespace ECommerceSystem.Training.Services
         }
         public void CreateProduct(Product product)
         {
-            _trainingUnitOfWork.Products.Add(
-                new Entities.Product
-                {
-                    ProductName = product.ProductName,
-                    Price = product.Price
-                }                
-                );
-            _trainingUnitOfWork.Save();
+            if (product == null)
+                throw new InvalidParameterException("Product was not provided");
+            if (!IsProductAlreadyUsed(product.ProductName))
+            {
+                _trainingUnitOfWork.Products.Add(
+               new Entities.Product
+               {
+                   ProductName = product.ProductName,
+                   Price = product.Price,
+                   CategoryId = product.CategoryId
+               }
+               );
+               _trainingUnitOfWork.Save();
+            }
+            else
+                throw new InvalidOperationException("Product Name already Used");
+           
         }
         public void CustomerPurchased( Product product, Customer customer)
         {
@@ -61,5 +71,7 @@ namespace ECommerceSystem.Training.Services
             });
             _trainingUnitOfWork.Save();
         }
+        private bool IsProductAlreadyUsed(string prdoductName) =>
+            _trainingUnitOfWork.Products.GetCount(x => x.ProductName == prdoductName) >0;
     }
 }

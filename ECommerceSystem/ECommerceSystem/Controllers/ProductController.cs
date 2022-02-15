@@ -1,5 +1,6 @@
 ﻿using ECommerceSystem.Models;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.Extensions.Logging;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -9,6 +10,12 @@ namespace ECommerceSystem.Controllers
 {
     public class ProductController : Controller
     {
+        private readonly ILogger<ProductController> _logger;
+        public ProductController(ILogger<ProductController> logger)
+        {
+            _logger = logger;
+
+        }
         public IActionResult Index()
         {
             return View();
@@ -33,8 +40,29 @@ namespace ECommerceSystem.Controllers
             }
             return RedirectToAction(nameof(ShowAllProducts));
         }
+
         public IActionResult Create()
         {
+            var model = new CreateProductModel();
+            return View(model);
+        }
+        [HttpPost, ValidateAntiForgeryToken]
+        public IActionResult Create( CreateProductModel model)
+        {            
+            if(ModelState.IsValid)
+            {
+                try
+                {
+                    model.CreateProduct();
+                }
+                catch (Exception ex)
+                {
+                    ModelState.AddModelError("", "Failed to Create Product");
+                    _logger.LogError(ex, "Create Product Failed.");
+                }
+            }
+            
+            
             return View();
         }
     }

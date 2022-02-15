@@ -11,5 +11,6 @@ namespace ECommerceSystem.Training.Services
     {
         IList<Product> GetAllProudcts();
         void CustomerPurchased (Product product, Customer customer);
+        void CreateProduct(Product product);
     }
 }

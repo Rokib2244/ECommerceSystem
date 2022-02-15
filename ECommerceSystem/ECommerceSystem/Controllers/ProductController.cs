@@ -9,6 +9,10 @@ namespace ECommerceSystem.Controllers
 {
     public class ProductController : Controller
     {
+        public IActionResult Index()
+        {
+            return View();
+        }
         public IActionResult ShowAllProducts()
         {
             var model = new ProductListModel();
@@ -28,6 +32,10 @@ namespace ECommerceSystem.Controllers
                 model.CustomerPurchased();
             }
             return RedirectToAction(nameof(ShowAllProducts));
+        }
+        public IActionResult Create()
+        {
+            return View();
         }
     }
 }

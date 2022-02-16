@@ -12,7 +12,9 @@ namespace ECommerceSystem.Models
     {
         public string ProductName { get; set; }
         public double Price { get; set; }
+        public DateTime Date { get; set; }
         public int CategoryId { get; set; }
+
         private readonly IProductService _productService;
         public CreateProductModel()
         {
@@ -28,6 +30,7 @@ namespace ECommerceSystem.Models
             var product = new Product {
                 ProductName = ProductName,
                 Price = Price,
+                Date = Date,
                 CategoryId = CategoryId
             };
             _productService.CreateProduct(product);

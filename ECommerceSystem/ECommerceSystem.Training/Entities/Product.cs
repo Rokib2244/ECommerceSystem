@@ -12,9 +12,11 @@ namespace ECommerceSystem.Training.Entities
         public int Id { get; set; }
         public string ProductName { get; set; }
         public double Price { get; set; }
+        public DateTime Date { get; set; }
         public int CategoryId { get; set; }
         public Category Category { get; set; }
         public List<ProductCustomers> CustomerPurchase { get; set; }
+
 
 
 

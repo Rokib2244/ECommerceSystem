@@ -1,5 +1,6 @@
 using Autofac;
 using Autofac.Extensions.DependencyInjection;
+using ECommerceSystem.Common;
 using ECommerceSystem.Data;
 using ECommerceSystem.Training;
 using ECommerceSystem.Training.Contexts;
@@ -50,6 +51,7 @@ namespace ECommerceSystem
             var connectionInfo = GetConnectionStringAndAssemblyName();
             builder.RegisterModule(new TrainingModule(connectionInfo.connectionString,
                 connectionInfo.migrationAssemblyName));
+            builder.RegisterModule(new CommonModule());
 
             builder
                 .RegisterModule(new WebModule());

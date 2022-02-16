@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "+gfzIfluVI5H9UdMxj4sWCFCao68RWioNiZcFVWX23I/36Wc4iWqLoNRjcBnM6dLZ97jcR+dA/7va5EJaCoThg==",
+  "success": true,
+  "projectFilePath": "E:\\ECommerceSystem\\ECommerceSystem\\ECommerceSystem.Common\\ECommerceSystem.Common.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\DELL\\.nuget\\packages\\autofac\\6.3.0\\autofac.6.3.0.nupkg.sha512",
+    "C:\\Users\\DELL\\.nuget\\packages\\system.diagnostics.diagnosticsource\\4.7.1\\system.diagnostics.diagnosticsource.4.7.1.nupkg.sha512"
+  ],
+  "logs": []
+}

@@ -1,4 +1,5 @@
-﻿using ECommerceSystem.Training.BusinessObjects;
+﻿using ECommerceSystem.Common.Utilities;
+using ECommerceSystem.Training.BusinessObjects;
 using ECommerceSystem.Training.Contexts;
 using ECommerceSystem.Training.Exceptions;
 using ECommerceSystem.Training.UnitOfWorks;
@@ -13,9 +14,12 @@ namespace ECommerceSystem.Training.Services
     public class ProductService : IProductService
     {
         private readonly ITrainingUnitOfWork _trainingUnitOfWork;
-        public ProductService(ITrainingUnitOfWork trainingUnitOfWork)
+        private readonly IDateTimeUtility _dateTimeUtility;
+        public ProductService(ITrainingUnitOfWork trainingUnitOfWork,
+            IDateTimeUtility dateTimeUtility)
         {
             _trainingUnitOfWork = trainingUnitOfWork;
+            _dateTimeUtility = dateTimeUtility;
         }
         public IList<Product> GetAllProudcts()
         {
@@ -26,7 +30,9 @@ namespace ECommerceSystem.Training.Services
                 var product = new Product()
                 {
                     ProductName = entity.ProductName,
-                    Price = entity.Price
+                    Price = entity.Price,
+                    Date = entity.Date,
+                    CategoryId = entity.CategoryId
                 };
                 products.Add(product);
             }
@@ -36,20 +42,24 @@ namespace ECommerceSystem.Training.Services
         {
             if (product == null)
                 throw new InvalidParameterException("Product was not provided");
-            if (!IsProductAlreadyUsed(product.ProductName))
-            {
-                _trainingUnitOfWork.Products.Add(
+            
+            if (IsProductAlreadyUsed(product.ProductName))
+                throw new DuplicateNameException("Product Name already Used");
+            if (!IsValidTimeSetup(product.Date))
+                throw new InvalidOperationException("Date should not be Past");
+            
+            _trainingUnitOfWork.Products.Add(
                new Entities.Product
                {
                    ProductName = product.ProductName,
                    Price = product.Price,
+                   Date = product.Date,
                    CategoryId = product.CategoryId
                }
                );
                _trainingUnitOfWork.Save();
-            }
-            else
-                throw new InvalidOperationException("Product Name already Used");
+           
+                
            
         }
         public void CustomerPurchased( Product product, Customer customer)
@@ -73,5 +83,8 @@ namespace ECommerceSystem.Training.Services
         }
         private bool IsProductAlreadyUsed(string prdoductName) =>
             _trainingUnitOfWork.Products.GetCount(x => x.ProductName == prdoductName) >0;
+
+        private bool IsValidTimeSetup(DateTime date) =>
+            date.Subtract(_dateTimeUtility.Now).TotalDays > 0;
     }
 }

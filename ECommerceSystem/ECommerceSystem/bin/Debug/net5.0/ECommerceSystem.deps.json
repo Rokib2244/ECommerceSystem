@@ -35,6 +35,7 @@
         "dependencies": {
           "Autofac": "6.3.0",
           "Autofac.Extensions.DependencyInjection": "7.2.0",
+          "ECommerceSystem.Common": "1.0.0",
           "ECommerceSystem.Training": "1.0.0",
           "Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore": "5.0.8",
           "Microsoft.AspNetCore.Identity.EntityFrameworkCore": "5.0.8",
@@ -2216,6 +2217,17 @@
           "System.Xml.XmlDocument": "4.3.0"
         }
       },
+      "ECommerceSystem.Common/1.0.0": {
+        "dependencies": {
+          "Autofac": "6.3.0"
+        },
+        "runtime": {
+          "ECommerceSystem.Common.dll": {}
+        },
+        "compile": {
+          "ECommerceSystem.Common.dll": {}
+        }
+      },
       "ECommerceSystem.Data/1.0.0": {
         "dependencies": {
           "Autofac": "6.3.0",
@@ -2232,6 +2244,7 @@
       "ECommerceSystem.Training/1.0.0": {
         "dependencies": {
           "Autofac": "6.3.0",
+          "ECommerceSystem.Common": "1.0.0",
           "ECommerceSystem.Data": "1.0.0",
           "Microsoft.EntityFrameworkCore.SqlServer": "5.0.8"
         },
@@ -4983,6 +4996,11 @@
       "sha512": "sha512-MYoTCP7EZ98RrANESW05J5ZwskKDoN0AuZ06ZflnowE50LTpbR5yRg3tHckTVm5j/m47stuGgCrCHWePyHS70Q==",
       "path": "system.xml.xmlserializer/4.3.0",
       "hashPath": "system.xml.xmlserializer.4.3.0.nupkg.sha512"
+    },
+    "ECommerceSystem.Common/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
     },
     "ECommerceSystem.Data/1.0.0": {
       "type": "project",

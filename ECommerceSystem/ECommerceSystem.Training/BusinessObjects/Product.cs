@@ -11,6 +11,7 @@ namespace ECommerceSystem.Training.BusinessObjects
         public int Id { get; set; }
         public string ProductName { get; set; }
         public double Price { get; set; }
+        public DateTime Date { get; set; }
         public int CategoryId { get; set; }
     }
 }

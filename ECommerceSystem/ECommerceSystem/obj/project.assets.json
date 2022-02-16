@@ -2441,6 +2441,19 @@
           "lib/netstandard1.3/System.Xml.XmlSerializer.dll": {}
         }
       },
+      "ECommerceSystem.Common/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "dependencies": {
+          "Autofac": "6.3.0"
+        },
+        "compile": {
+          "bin/placeholder/ECommerceSystem.Common.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/ECommerceSystem.Common.dll": {}
+        }
+      },
       "ECommerceSystem.Data/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v5.0",
@@ -2461,6 +2474,7 @@
         "framework": ".NETCoreApp,Version=v5.0",
         "dependencies": {
           "Autofac": "6.3.0",
+          "ECommerceSystem.Common": "1.0.0",
           "ECommerceSystem.Data": "1.0.0",
           "Microsoft.EntityFrameworkCore.SqlServer": "5.0.8"
         },
@@ -8256,6 +8270,11 @@
         "system.xml.xmlserializer.nuspec"
       ]
     },
+    "ECommerceSystem.Common/1.0.0": {
+      "type": "project",
+      "path": "../ECommerceSystem.Common/ECommerceSystem.Common.csproj",
+      "msbuildProject": "../ECommerceSystem.Common/ECommerceSystem.Common.csproj"
+    },
     "ECommerceSystem.Data/1.0.0": {
       "type": "project",
       "path": "../ECommerceSystem.Data/ECommerceSystem.Data.csproj",
@@ -8271,6 +8290,7 @@
     "net5.0": [
       "Autofac >= 6.3.0",
       "Autofac.Extensions.DependencyInjection >= 7.2.0",
+      "ECommerceSystem.Common >= 1.0.0",
       "ECommerceSystem.Training >= 1.0.0",
       "Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore >= 5.0.8",
       "Microsoft.AspNetCore.Identity.EntityFrameworkCore >= 5.0.8",
@@ -8310,6 +8330,9 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
+            "E:\\ECommerceSystem\\ECommerceSystem\\ECommerceSystem.Common\\ECommerceSystem.Common.csproj": {
+              "projectPath": "E:\\ECommerceSystem\\ECommerceSystem\\ECommerceSystem.Common\\ECommerceSystem.Common.csproj"
+            },
             "E:\\ECommerceSystem\\ECommerceSystem\\ECommerceSystem.Training\\ECommerceSystem.Training.csproj": {
               "projectPath": "E:\\ECommerceSystem\\ECommerceSystem\\ECommerceSystem.Training\\ECommerceSystem.Training.csproj"
             }

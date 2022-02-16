@@ -16,6 +16,7 @@ namespace ECommerceSystem.Data
        where TEntity : class, IEntity<Tkey>
     {
         protected DbContext _dbContext;
+
         protected DbSet<TEntity> _dbSet;
         public Repository(DbContext context)
         {

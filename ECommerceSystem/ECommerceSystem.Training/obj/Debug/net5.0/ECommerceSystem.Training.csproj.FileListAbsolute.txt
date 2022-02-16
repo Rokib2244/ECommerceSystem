@@ -25,3 +25,5 @@ E:\ECommerceSystem\ECommerceSystem\ECommerceSystem.Training\bin\Debug\net5.0\ECo
 E:\ECommerceSystem\ECommerceSystem\ECommerceSystem.Training\bin\Debug\net5.0\ECommerceSystem.Data.dll
 E:\ECommerceSystem\ECommerceSystem\ECommerceSystem.Training\bin\Debug\net5.0\ECommerceSystem.Data.pdb
 E:\ECommerceSystem\ECommerceSystem\ECommerceSystem.Training\obj\Debug\net5.0\ECommerceSystem.Training.csproj.CopyComplete
+E:\ECommerceSystem\ECommerceSystem\ECommerceSystem.Training\bin\Debug\net5.0\ECommerceSystem.Common.dll
+E:\ECommerceSystem\ECommerceSystem\ECommerceSystem.Training\bin\Debug\net5.0\ECommerceSystem.Common.pdb

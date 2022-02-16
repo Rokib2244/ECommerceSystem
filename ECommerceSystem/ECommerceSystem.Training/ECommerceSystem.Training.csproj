@@ -10,6 +10,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\ECommerceSystem.Common\ECommerceSystem.Common.csproj" />
     <ProjectReference Include="..\ECommerceSystem.Data\ECommerceSystem.Data.csproj" />
   </ItemGroup>
 

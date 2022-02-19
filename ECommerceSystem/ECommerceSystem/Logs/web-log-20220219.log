@@ -1,0 +1,6 @@
+2022-02-19 09:40:27.024 +06:00 [INF] Application Starting up
+2022-02-19 09:42:22.140 +06:00 [ERR] Create Product Failed.
+System.InvalidOperationException: Date should not be Past
+   at ECommerceSystem.Training.Services.ProductService.CreateProduct(Product product) in E:\ECommerceSystem\ECommerceSystem\ECommerceSystem.Training\Services\ProductService.cs:line 49
+   at ECommerceSystem.Models.CreateProductModel.CreateProduct() in E:\ECommerceSystem\ECommerceSystem\ECommerceSystem\Models\CreateProductModel.cs:line 36
+   at ECommerceSystem.Controllers.ProductController.Create(CreateProductModel model) in E:\ECommerceSystem\ECommerceSystem\ECommerceSystem\Controllers\ProductController.cs:line 56

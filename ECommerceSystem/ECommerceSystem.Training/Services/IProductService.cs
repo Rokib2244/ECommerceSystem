@@ -12,5 +12,7 @@ namespace ECommerceSystem.Training.Services
         IList<Product> GetAllProudcts();
         void CustomerPurchased (Product product, Customer customer);
         void CreateProduct(Product product);
+        (IList<Product> records, int total, int totalDisplay) GetProducts(int pageIndex, int pageSize, string searchText, string sortText);
+
     }
 }

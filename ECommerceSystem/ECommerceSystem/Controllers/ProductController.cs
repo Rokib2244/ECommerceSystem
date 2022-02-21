@@ -26,6 +26,14 @@ namespace ECommerceSystem.Controllers
             model.LoadModelData();
             return View(model);
         }
+
+        public JsonResult GetAllProducts()
+        {
+            var dataTablesModel = new DataTablesAjaxRequestModel(Request);
+            var model = new ProductListModel();
+            var data =  model.GetProducts(dataTablesModel);
+            return Json(data);
+        }
         public IActionResult CustomerPurchase()
         {
             var model = new CustomerPurchasedModel();

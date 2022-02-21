@@ -86,5 +86,21 @@ namespace ECommerceSystem.Training.Services
 
         private bool IsValidTimeSetup(DateTime date) =>
             date.Subtract(_dateTimeUtility.Now).TotalDays > 0;
+
+        public (IList<Product> records, int total, int totalDisplay) GetProducts(int pageIndex, int pageSize, string searchText, string sortText)
+        {
+           var producData =  _trainingUnitOfWork.Products.GetDynamic(
+               string.IsNullOrWhiteSpace(searchText)?null: x => x.ProductName == searchText, sortText, string.Empty, pageIndex, pageSize);
+            var resultData = (from product in producData.data
+                          select new Product
+                          {
+                              Id = product.Id,
+                              ProductName = product.ProductName,
+                              Price = product.Price,
+                              Date = product.Date,
+                              CategoryId = product.CategoryId
+                          }).ToList();
+            return (resultData, producData.total, producData.totalDisplay);
+        }
     }
 }

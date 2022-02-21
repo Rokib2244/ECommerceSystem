@@ -23,9 +23,10 @@
     <script>
         $(function () {
             $("#products").DataTable({
-                "responsive": true, "lengthChange": false, "autoWidth": false,
-                "buttons": ["copy", "csv", "excel", "pdf", "print", "colvis"]
-            }).buttons().container().appendTo('#example1_wrapper .col-md-6:eq(0)');
+                "processing": true,
+                "serverSide": true,
+                "ajax":"/Product/GetAllProducts",
+            });
             
         });</script>
 
@@ -71,7 +72,7 @@
                                                 <th>Category Id</th>                                               
                                             </tr>
                                         </thead>
-                                        <tbody>
+                                        @*<tbody>
                                             
                                                 @foreach (var product in Model.Products)
                                                 {
@@ -84,7 +85,7 @@
                                                  </tr>
                                                 }
                                            
-                                        </tbody>
+                                        </tbody>*@
                                          <tfoot>
                                              <tr>
                                                  <th>Product Name</th>

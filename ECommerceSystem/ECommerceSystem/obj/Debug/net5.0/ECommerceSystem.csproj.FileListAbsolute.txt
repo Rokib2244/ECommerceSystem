@@ -909,3 +909,5 @@ E:\ECommerceSystem\ECommerceSystem\ECommerceSystem\obj\Debug\net5.0\Razor\Views\
 E:\ECommerceSystem\ECommerceSystem\ECommerceSystem\obj\Debug\net5.0\Razor\Views\Product\Index.cshtml.g.cs
 E:\ECommerceSystem\ECommerceSystem\ECommerceSystem\bin\Debug\net5.0\ECommerceSystem.Common.dll
 E:\ECommerceSystem\ECommerceSystem\ECommerceSystem\bin\Debug\net5.0\ECommerceSystem.Common.pdb
+E:\ECommerceSystem\ECommerceSystem\ECommerceSystem\obj\Debug\net5.0\Razor\Views\Product\Edit.cshtml.g.cs
+E:\ECommerceSystem\ECommerceSystem\ECommerceSystem\obj\Debug\net5.0\Razor\Views\Shared\_DeletePopupPartial.cshtml.g.cs

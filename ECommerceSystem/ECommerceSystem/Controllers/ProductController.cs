@@ -22,9 +22,10 @@ namespace ECommerceSystem.Controllers
         }
         public IActionResult ShowAllProducts()
         {
-            var model = new ProductListModel();
-            model.LoadModelData();
-            return View(model);
+            //var model = new ProductListModel();
+            //model.LoadModelData();
+            //return View(model);
+            return View();
         }
 
         public JsonResult GetAllProducts()
@@ -72,6 +73,28 @@ namespace ECommerceSystem.Controllers
             
             
             return View();
+        }
+        public IActionResult Edit(int id)
+        {
+            var model = new EditProductModel();
+            model.LoadModleData(id);
+            return View(model);
+        }
+        [HttpPost, ValidateAntiForgeryToken]
+        public IActionResult Edit(EditProductModel model)
+        {
+            if(ModelState.IsValid)
+            {
+                model.Update();
+            }
+            return View(model);
+        }
+        [HttpPost, ValidateAntiForgeryToken]
+        public IActionResult Delete(int id)
+        {
+            var model = new ProductListModel();
+            model.Delete(id);
+            return RedirectToAction(nameof(ShowAllProducts));
         }
     }
 }

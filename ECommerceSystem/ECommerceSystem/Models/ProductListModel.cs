@@ -20,10 +20,10 @@ namespace ECommerceSystem.Models
         {
             _poductService = poductService;
         }
-        public void LoadModelData()
-        {
-            Products = _poductService.GetAllProudcts();
-        }
+        //public void LoadModelData()
+        //{
+        //    Products = _poductService.GetAllProudcts();
+        //}
 
         internal object GetProducts(DataTablesAjaxRequestModel tablesModel)
         {
@@ -51,6 +51,11 @@ namespace ECommerceSystem.Models
                            ).ToArray()
 
             };
+        }
+
+        internal void Delete(int id)
+        {
+            _poductService.DeleteProduct(id);
         }
     }
 }

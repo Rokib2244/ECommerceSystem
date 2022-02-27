@@ -43,7 +43,7 @@ namespace ECommerceSystem.Training.Services
             if (product == null)
                 throw new InvalidParameterException("Product was not provided");
             
-            if (IsProductAlreadyUsed(product.ProductName))
+            if (IsProductNameAlreadyUsed(product.ProductName))
                 throw new DuplicateNameException("Product Name already Used");
             if (!IsValidTimeSetup(product.Date))
                 throw new InvalidOperationException("Date should not be Past");
@@ -81,16 +81,18 @@ namespace ECommerceSystem.Training.Services
             });
             _trainingUnitOfWork.Save();
         }
-        private bool IsProductAlreadyUsed(string prdoductName) =>
+        private bool IsProductNameAlreadyUsed(string prdoductName) =>
             _trainingUnitOfWork.Products.GetCount(x => x.ProductName == prdoductName) >0;
+        private bool IsProductNameAlreadyUsed(string prdoductName, int id) =>
+            _trainingUnitOfWork.Products.GetCount(x => x.ProductName == prdoductName && x.Id != id) > 0;
 
         private bool IsValidTimeSetup(DateTime date) =>
-            date.Subtract(_dateTimeUtility.Now).TotalDays > 0;
+            date.Subtract(_dateTimeUtility.Now).Seconds > -1;
 
         public (IList<Product> records, int total, int totalDisplay) GetProducts(int pageIndex, int pageSize, string searchText, string sortText)
         {
            var producData =  _trainingUnitOfWork.Products.GetDynamic(
-               string.IsNullOrWhiteSpace(searchText)?null: x => x.ProductName == searchText, sortText, string.Empty, pageIndex, pageSize);
+               string.IsNullOrWhiteSpace(searchText)?null: x => x.ProductName.Contains(searchText), sortText, string.Empty, pageIndex, pageSize);
             var resultData = (from product in producData.data
                           select new Product
                           {
@@ -101,6 +103,44 @@ namespace ECommerceSystem.Training.Services
                               CategoryId = product.CategoryId
                           }).ToList();
             return (resultData, producData.total, producData.totalDisplay);
+        }
+
+        public Product GetProducts(int id)
+        {
+            var product =_trainingUnitOfWork.Products.GetById(id);
+            if (product == null) return null;
+            return new Product
+            {
+                Id = product.Id,
+                ProductName = product.ProductName,
+                Price = product.Price,
+                Date = product.Date,
+                CategoryId = product.CategoryId
+            };
+        }
+
+        public void UpdateProduct(Product product)
+        {
+            if (product == null)
+                throw new InvalidOperationException("Product was not found");
+
+            if (IsProductNameAlreadyUsed(product.ProductName, product.Id))
+                throw new InvalidOperationException("Product Name Already Used");
+            var productEntity = _trainingUnitOfWork.Products.GetById(product.Id);
+            if(productEntity != null)
+            {
+                productEntity.ProductName = product.ProductName;
+                productEntity.Price = product.Price;
+                productEntity.Date = product.Date;
+                productEntity.CategoryId = product.CategoryId;
+                _trainingUnitOfWork.Save();
+            }
+        }
+
+        public void DeleteProduct(int id)
+        {
+            _trainingUnitOfWork.Products.Remove(id);
+            _trainingUnitOfWork.Save();
         }
     }
 }

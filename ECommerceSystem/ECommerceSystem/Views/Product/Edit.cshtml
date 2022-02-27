@@ -1,9 +1,7 @@
-﻿@model CreateProductModel
+﻿@model EditProductModel
 @{
-    ViewData["Title"] = "Create";
+    ViewData["Title"] = "Edit";
 }
-
-@*<h1>Create</h1>*@
 <section class="content-header">
     <div class="container-fluid">
         <div class="row mb-2">
@@ -25,12 +23,13 @@
             <!-- general form elements -->
             <div class="card card-primary">
                 <div class="card-header">
-                    <h3 class="card-title">Create New Product</h3>
+                    <h3 class="card-title">Edit Product</h3>
                 </div>
                 <!-- /.card-header -->
                 <!-- form start -->
-                <form method="post" asp-controller="Product" asp-action="Create" asp-antiforgery="true">
-                    <div asp-validation-summary="All" class="text-danger" ></div>
+                <form method="post" asp-controller="Product" asp-action="Edit" asp-antiforgery="true">
+                    <div asp-validation-summary="All" class="text-danger"></div>
+                    <input type="hidden" asp-for="Id"/>
                     <div class="card-body">
                         <div class="form-group">
                             <label asp-for="ProductName" class="col-form-label">Product Name</label>
@@ -53,9 +52,8 @@
                     <!-- /.card-body -->
 
                     <div class="card-footer">
-                        <button type="submit" class="btn btn-info">Create </button>
-                        @*<a asp-action="ShowAllProducts" asp-controller="Product" class="btn btn-default float-right">Cancel</a>*@
-                        <a asp-action="Create" asp-controller="Product" class="btn btn-default float-right">Cancel</a>
+                        <button type="submit" class="btn btn-info">Edit </button>
+                        <a asp-action="ShowAllProducts" asp-controller="Product" class="btn btn-default float-right">Cancel</a>
                     </div>
                 </form>
             </div>

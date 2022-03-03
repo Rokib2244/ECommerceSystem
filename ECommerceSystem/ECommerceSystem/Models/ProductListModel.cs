@@ -5,20 +5,24 @@ using System.Linq;
 using System.Threading.Tasks;
 using Autofac;
 using ECommerceSystem.Training.BusinessObjects;
+using Microsoft.AspNetCore.Http;
 
 namespace ECommerceSystem.Models
 {
     public class ProductListModel
     {
         private IProductService _poductService;
+        private IHttpContextAccessor _httpContextAccessor;
         public IList<Product> Products { get; set; }
         public ProductListModel()
         {
             _poductService = Startup.AutofacContainer.Resolve<IProductService>();
+            _httpContextAccessor = Startup.AutofacContainer.Resolve<IHttpContextAccessor>();
         }
-        public ProductListModel( IProductService poductService)
+        public ProductListModel( IProductService poductService, IHttpContextAccessor httpContextAccessor)
         {
             _poductService = poductService;
+            _httpContextAccessor = httpContextAccessor;
         }
         //public void LoadModelData()
         //{
@@ -27,6 +31,7 @@ namespace ECommerceSystem.Models
 
         internal object GetProducts(DataTablesAjaxRequestModel tablesModel)
         {
+           
             var data = _poductService.GetProducts(
                 tablesModel.PageIndex,
                 tablesModel.PageSize,

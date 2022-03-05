@@ -43,6 +43,10 @@
             "Autofac": {
               "target": "Package",
               "version": "[6.3.0, )"
+            },
+            "Microsoft.AspNetCore.Http.Extensions": {
+              "target": "Package",
+              "version": "[2.2.0, )"
             }
           },
           "imports": [

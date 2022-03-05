@@ -561,7 +561,6 @@ E:\ECommerceSystem\ECommerceSystem\ECommerceSystem\bin\Debug\net5.0\refs\Microso
 E:\ECommerceSystem\ECommerceSystem\ECommerceSystem\bin\Debug\net5.0\refs\Microsoft.Extensions.Configuration.KeyPerFile.dll
 E:\ECommerceSystem\ECommerceSystem\ECommerceSystem\bin\Debug\net5.0\refs\Microsoft.Extensions.Configuration.UserSecrets.dll
 E:\ECommerceSystem\ECommerceSystem\ECommerceSystem\bin\Debug\net5.0\refs\Microsoft.Extensions.Configuration.Xml.dll
-E:\ECommerceSystem\ECommerceSystem\ECommerceSystem\bin\Debug\net5.0\refs\Microsoft.Extensions.DependencyInjection.Abstractions.dll
 E:\ECommerceSystem\ECommerceSystem\ECommerceSystem\bin\Debug\net5.0\refs\Microsoft.Extensions.Diagnostics.HealthChecks.Abstractions.dll
 E:\ECommerceSystem\ECommerceSystem\ECommerceSystem\bin\Debug\net5.0\refs\Microsoft.Extensions.Diagnostics.HealthChecks.dll
 E:\ECommerceSystem\ECommerceSystem\ECommerceSystem\bin\Debug\net5.0\refs\Microsoft.Extensions.FileProviders.Abstractions.dll
@@ -584,8 +583,6 @@ E:\ECommerceSystem\ECommerceSystem\ECommerceSystem\bin\Debug\net5.0\refs\Microso
 E:\ECommerceSystem\ECommerceSystem\ECommerceSystem\bin\Debug\net5.0\refs\Microsoft.Extensions.ObjectPool.dll
 E:\ECommerceSystem\ECommerceSystem\ECommerceSystem\bin\Debug\net5.0\refs\Microsoft.Extensions.Options.ConfigurationExtensions.dll
 E:\ECommerceSystem\ECommerceSystem\ECommerceSystem\bin\Debug\net5.0\refs\Microsoft.Extensions.Options.DataAnnotations.dll
-E:\ECommerceSystem\ECommerceSystem\ECommerceSystem\bin\Debug\net5.0\refs\Microsoft.Extensions.Options.dll
-E:\ECommerceSystem\ECommerceSystem\ECommerceSystem\bin\Debug\net5.0\refs\Microsoft.Extensions.Primitives.dll
 E:\ECommerceSystem\ECommerceSystem\ECommerceSystem\bin\Debug\net5.0\refs\Microsoft.Extensions.WebEncoders.dll
 E:\ECommerceSystem\ECommerceSystem\ECommerceSystem\bin\Debug\net5.0\refs\Microsoft.JSInterop.dll
 E:\ECommerceSystem\ECommerceSystem\ECommerceSystem\bin\Debug\net5.0\refs\Microsoft.Net.Http.Headers.dll
@@ -684,7 +681,6 @@ E:\ECommerceSystem\ECommerceSystem\ECommerceSystem\bin\Debug\net5.0\refs\System.
 E:\ECommerceSystem\ECommerceSystem\ECommerceSystem\bin\Debug\net5.0\refs\System.Resources.Reader.dll
 E:\ECommerceSystem\ECommerceSystem\ECommerceSystem\bin\Debug\net5.0\refs\System.Resources.ResourceManager.dll
 E:\ECommerceSystem\ECommerceSystem\ECommerceSystem\bin\Debug\net5.0\refs\System.Resources.Writer.dll
-E:\ECommerceSystem\ECommerceSystem\ECommerceSystem\bin\Debug\net5.0\refs\System.Runtime.CompilerServices.Unsafe.dll
 E:\ECommerceSystem\ECommerceSystem\ECommerceSystem\bin\Debug\net5.0\refs\System.Runtime.CompilerServices.VisualC.dll
 E:\ECommerceSystem\ECommerceSystem\ECommerceSystem\bin\Debug\net5.0\refs\System.Runtime.dll
 E:\ECommerceSystem\ECommerceSystem\ECommerceSystem\bin\Debug\net5.0\refs\System.Runtime.Extensions.dll
@@ -911,3 +907,15 @@ E:\ECommerceSystem\ECommerceSystem\ECommerceSystem\bin\Debug\net5.0\ECommerceSys
 E:\ECommerceSystem\ECommerceSystem\ECommerceSystem\bin\Debug\net5.0\ECommerceSystem.Common.pdb
 E:\ECommerceSystem\ECommerceSystem\ECommerceSystem\obj\Debug\net5.0\Razor\Views\Product\Edit.cshtml.g.cs
 E:\ECommerceSystem\ECommerceSystem\ECommerceSystem\obj\Debug\net5.0\Razor\Views\Shared\_DeletePopupPartial.cshtml.g.cs
+E:\ECommerceSystem\ECommerceSystem\ECommerceSystem\bin\Debug\net5.0\AutoMapper.dll
+E:\ECommerceSystem\ECommerceSystem\ECommerceSystem\bin\Debug\net5.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+E:\ECommerceSystem\ECommerceSystem\ECommerceSystem\bin\Debug\net5.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+E:\ECommerceSystem\ECommerceSystem\ECommerceSystem\bin\Debug\net5.0\Microsoft.Extensions.Options.dll
+E:\ECommerceSystem\ECommerceSystem\ECommerceSystem\bin\Debug\net5.0\Microsoft.Extensions.Primitives.dll
+E:\ECommerceSystem\ECommerceSystem\ECommerceSystem\bin\Debug\net5.0\System.Runtime.CompilerServices.Unsafe.dll
+E:\ECommerceSystem\ECommerceSystem\ECommerceSystem\obj\Debug\net5.0\Razor\Areas\Identity\Pages\Account\Login.cshtml.g.cs
+E:\ECommerceSystem\ECommerceSystem\ECommerceSystem\obj\Debug\net5.0\Razor\Areas\Identity\Pages\Account\Logout.cshtml.g.cs
+E:\ECommerceSystem\ECommerceSystem\ECommerceSystem\obj\Debug\net5.0\Razor\Areas\Identity\Pages\Account\Register.cshtml.g.cs
+E:\ECommerceSystem\ECommerceSystem\ECommerceSystem\obj\Debug\net5.0\Razor\Areas\Identity\Pages\Account\_ViewImports.cshtml.g.cs
+E:\ECommerceSystem\ECommerceSystem\ECommerceSystem\obj\Debug\net5.0\Razor\Areas\Identity\Pages\_ValidationScriptsPartial.cshtml.g.cs
+E:\ECommerceSystem\ECommerceSystem\ECommerceSystem\obj\Debug\net5.0\Razor\Areas\Identity\Pages\_ViewImports.cshtml.g.cs

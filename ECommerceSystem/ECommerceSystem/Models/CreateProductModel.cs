@@ -1,4 +1,5 @@
 ﻿using Autofac;
+using AutoMapper;
 using ECommerceSystem.Training.BusinessObjects;
 using ECommerceSystem.Training.Services;
 using System;
@@ -21,23 +22,27 @@ namespace ECommerceSystem.Models
         public int CategoryId { get; set; }
 
         private readonly IProductService _productService;
+        private readonly IMapper _mapper;
         public CreateProductModel()
         {
             _productService = Startup.AutofacContainer.Resolve<IProductService>();
+            _mapper = Startup.AutofacContainer.Resolve<IMapper>();
         }
-        public CreateProductModel( IProductService productService)
+        public CreateProductModel( IProductService productService, IMapper mapper)
         {
             _productService = productService;
+            _mapper = mapper;
         }
 
         internal void CreateProduct()
         {
-            var product = new Product {
-                ProductName = ProductName,
-                Price = Price,
-                Date = Date,
-                CategoryId = CategoryId
-            };
+            //var product = new Product {
+            //    ProductName = ProductName,
+            //    Price = Price,
+            //    Date = Date,
+            //    CategoryId = CategoryId
+            //};
+            var product = _mapper.Map<Product>(this);
             _productService.CreateProduct(product);
         }
     }

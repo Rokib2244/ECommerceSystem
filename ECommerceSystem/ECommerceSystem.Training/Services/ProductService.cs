@@ -1,4 +1,5 @@
-﻿using ECommerceSystem.Common.Utilities;
+﻿using AutoMapper;
+using ECommerceSystem.Common.Utilities;
 using ECommerceSystem.Training.BusinessObjects;
 using ECommerceSystem.Training.Contexts;
 using ECommerceSystem.Training.Exceptions;
@@ -15,11 +16,14 @@ namespace ECommerceSystem.Training.Services
     {
         private readonly ITrainingUnitOfWork _trainingUnitOfWork;
         private readonly IDateTimeUtility _dateTimeUtility;
+        private readonly IMapper _mapper;
         public ProductService(ITrainingUnitOfWork trainingUnitOfWork,
-            IDateTimeUtility dateTimeUtility)
+            IDateTimeUtility dateTimeUtility,
+            IMapper mapper)
         {
             _trainingUnitOfWork = trainingUnitOfWork;
             _dateTimeUtility = dateTimeUtility;
+            _mapper = mapper;
         }
         public IList<Product> GetAllProudcts()
         {
@@ -27,13 +31,14 @@ namespace ECommerceSystem.Training.Services
             var products = new List<Product>();
             foreach (var entity in productEntities)
             {
-                var product = new Product()
-                {
-                    ProductName = entity.ProductName,
-                    Price = entity.Price,
-                    Date = entity.Date,
-                    CategoryId = entity.CategoryId
-                };
+                var product = _mapper.Map<Product>(entity);
+                //var product = new Product()
+                //{
+                //    ProductName = entity.ProductName,
+                //    Price = entity.Price,
+                //    Date = entity.Date,
+                //    CategoryId = entity.CategoryId
+                //};
                 products.Add(product);
             }
             return products;
@@ -49,14 +54,7 @@ namespace ECommerceSystem.Training.Services
                 throw new InvalidOperationException("Date should not be Past");
             
             _trainingUnitOfWork.Products.Add(
-               new Entities.Product
-               {
-                   ProductName = product.ProductName,
-                   Price = product.Price,
-                   Date = product.Date,
-                   CategoryId = product.CategoryId
-               }
-               );
+                _mapper.Map<Entities.Product>(product));
                _trainingUnitOfWork.Save();
            
                 
@@ -94,14 +92,16 @@ namespace ECommerceSystem.Training.Services
            var producData =  _trainingUnitOfWork.Products.GetDynamic(
                string.IsNullOrWhiteSpace(searchText)?null: x => x.ProductName.Contains(searchText), sortText, string.Empty, pageIndex, pageSize);
             var resultData = (from product in producData.data
-                          select new Product
-                          {
-                              Id = product.Id,
-                              ProductName = product.ProductName,
-                              Price = product.Price,
-                              Date = product.Date,
-                              CategoryId = product.CategoryId
-                          }).ToList();
+                              select _mapper.Map<Product>(product)).ToList();
+            //var resultData = (from product in producData.data
+            //              select new Product
+            //              {
+            //                  Id = product.Id,
+            //                  ProductName = product.ProductName,
+            //                  Price = product.Price,
+            //                  Date = product.Date,
+            //                  CategoryId = product.CategoryId
+            //              }).ToList();
             return (resultData, producData.total, producData.totalDisplay);
         }
 
@@ -109,14 +109,7 @@ namespace ECommerceSystem.Training.Services
         {
             var product =_trainingUnitOfWork.Products.GetById(id);
             if (product == null) return null;
-            return new Product
-            {
-                Id = product.Id,
-                ProductName = product.ProductName,
-                Price = product.Price,
-                Date = product.Date,
-                CategoryId = product.CategoryId
-            };
+            return _mapper.Map<Product>(product);
         }
 
         public void UpdateProduct(Product product)
@@ -129,10 +122,12 @@ namespace ECommerceSystem.Training.Services
             var productEntity = _trainingUnitOfWork.Products.GetById(product.Id);
             if(productEntity != null)
             {
-                productEntity.ProductName = product.ProductName;
+                _mapper.Map(product, productEntity);
+               /* productEntity.ProductName = product.ProductName;
                 productEntity.Price = product.Price;
                 productEntity.Date = product.Date;
                 productEntity.CategoryId = product.CategoryId;
+               */
                 _trainingUnitOfWork.Save();
             }
         }

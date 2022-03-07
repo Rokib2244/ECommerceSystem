@@ -26,8 +26,15 @@ using ECommerceSystem.Models;
 #line default
 #line hidden
 #nullable disable
+#nullable restore
+#line 3 "E:\ECommerceSystem\ECommerceSystem\ECommerceSystem\Views\_ViewImports.cshtml"
+using ECommerceSystem.Models.Account;
+
+#line default
+#line hidden
+#nullable disable
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"99464617055fdb505bb0bb7fd91f9b14f7b0d030", @"/Views/Home/Index.cshtml")]
-    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"46169eb9a800799dea293b098656bd0db993d1cd", @"/Views/_ViewImports.cshtml")]
+    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"b0b431727ebd1930428a504827bed5375f6d278e", @"/Views/_ViewImports.cshtml")]
     public class Views_Home_Index : global::Microsoft.AspNetCore.Mvc.Razor.RazorPage<dynamic>
     {
         #pragma warning disable 1998

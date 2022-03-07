@@ -26,8 +26,15 @@ using ECommerceSystem.Models;
 #line default
 #line hidden
 #nullable disable
+#nullable restore
+#line 3 "E:\ECommerceSystem\ECommerceSystem\ECommerceSystem\Views\_ViewImports.cshtml"
+using ECommerceSystem.Models.Account;
+
+#line default
+#line hidden
+#nullable disable
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"36577f0adae20cd1f83f18b7c11799cbda99d3e0", @"/Views/Product/Index.cshtml")]
-    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"46169eb9a800799dea293b098656bd0db993d1cd", @"/Views/_ViewImports.cshtml")]
+    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"b0b431727ebd1930428a504827bed5375f6d278e", @"/Views/_ViewImports.cshtml")]
     public class Views_Product_Index : global::Microsoft.AspNetCore.Mvc.Razor.RazorPage<dynamic>
     {
         private static readonly global::Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute __tagHelperAttribute_0 = new global::Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute("action", new global::Microsoft.AspNetCore.Html.HtmlString("#"), global::Microsoft.AspNetCore.Razor.TagHelpers.HtmlAttributeValueStyle.DoubleQuotes);
@@ -390,7 +397,7 @@ using ECommerceSystem.Models;
                     <!-- /.card-body -->
                     <div class=""card-footer"">
                         ");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("form", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "36577f0adae20cd1f83f18b7c11799cbda99d3e021934", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("form", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "36577f0adae20cd1f83f18b7c11799cbda99d3e022130", async() => {
                 WriteLiteral(@"
                             <div class=""input-group"">
                                 <input type=""text"" name=""message"" placeholder=""Type Message ..."" class=""form-control"">

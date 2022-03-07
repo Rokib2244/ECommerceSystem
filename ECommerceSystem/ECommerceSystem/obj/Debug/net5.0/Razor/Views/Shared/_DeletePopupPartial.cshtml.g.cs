@@ -26,8 +26,15 @@ using ECommerceSystem.Models;
 #line default
 #line hidden
 #nullable disable
+#nullable restore
+#line 3 "E:\ECommerceSystem\ECommerceSystem\ECommerceSystem\Views\_ViewImports.cshtml"
+using ECommerceSystem.Models.Account;
+
+#line default
+#line hidden
+#nullable disable
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"7aa355163b44ee7e2d6523fd4a085179b9859a3f", @"/Views/Shared/_DeletePopupPartial.cshtml")]
-    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"46169eb9a800799dea293b098656bd0db993d1cd", @"/Views/_ViewImports.cshtml")]
+    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"b0b431727ebd1930428a504827bed5375f6d278e", @"/Views/_ViewImports.cshtml")]
     public class Views_Shared__DeletePopupPartial : global::Microsoft.AspNetCore.Mvc.Razor.RazorPage<dynamic>
     {
         private static readonly global::Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute __tagHelperAttribute_0 = new global::Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute("id", new global::Microsoft.AspNetCore.Html.HtmlString("deleteForm"), global::Microsoft.AspNetCore.Razor.TagHelpers.HtmlAttributeValueStyle.DoubleQuotes);
@@ -71,7 +78,7 @@ using ECommerceSystem.Models;
             <div class=""modal-body"">
                 <p>Are you sure, you want to delete?</p>
                 ");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("form", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "7aa355163b44ee7e2d6523fd4a085179b9859a3f4852", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("form", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "7aa355163b44ee7e2d6523fd4a085179b9859a3f5048", async() => {
                 WriteLiteral("\r\n                    <input type=\"hidden\" id=\"deleteId\"");
                 BeginWriteAttribute("value", " value=\"", 1883, "\"", 1891, 0);
                 EndWriteAttribute();

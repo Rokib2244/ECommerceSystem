@@ -26,6 +26,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\ECommerceSystem.Common\ECommerceSystem.Common.csproj" />
+    <ProjectReference Include="..\ECommerceSystem.Membership\ECommerceSystem.Membership.csproj" />
     <ProjectReference Include="..\ECommerceSystem.Training\ECommerceSystem.Training.csproj" />
   </ItemGroup>
 

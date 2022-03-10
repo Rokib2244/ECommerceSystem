@@ -548,7 +548,6 @@ E:\ECommerceSystem\ECommerceSystem\ECommerceSystem\bin\Debug\net5.0\refs\Microso
 E:\ECommerceSystem\ECommerceSystem\ECommerceSystem\bin\Debug\net5.0\refs\Microsoft.AspNetCore.WebSockets.dll
 E:\ECommerceSystem\ECommerceSystem\ECommerceSystem\bin\Debug\net5.0\refs\Microsoft.AspNetCore.WebUtilities.dll
 E:\ECommerceSystem\ECommerceSystem\ECommerceSystem\bin\Debug\net5.0\refs\Microsoft.CSharp.dll
-E:\ECommerceSystem\ECommerceSystem\ECommerceSystem\bin\Debug\net5.0\refs\Microsoft.Extensions.Caching.Abstractions.dll
 E:\ECommerceSystem\ECommerceSystem\ECommerceSystem\bin\Debug\net5.0\refs\Microsoft.Extensions.Caching.Memory.dll
 E:\ECommerceSystem\ECommerceSystem\ECommerceSystem\bin\Debug\net5.0\refs\Microsoft.Extensions.Configuration.Abstractions.dll
 E:\ECommerceSystem\ECommerceSystem\ECommerceSystem\bin\Debug\net5.0\refs\Microsoft.Extensions.Configuration.Binder.dll
@@ -572,11 +571,9 @@ E:\ECommerceSystem\ECommerceSystem\ECommerceSystem\bin\Debug\net5.0\refs\Microso
 E:\ECommerceSystem\ECommerceSystem\ECommerceSystem\bin\Debug\net5.0\refs\Microsoft.Extensions.Http.dll
 E:\ECommerceSystem\ECommerceSystem\ECommerceSystem\bin\Debug\net5.0\refs\Microsoft.Extensions.Localization.Abstractions.dll
 E:\ECommerceSystem\ECommerceSystem\ECommerceSystem\bin\Debug\net5.0\refs\Microsoft.Extensions.Localization.dll
-E:\ECommerceSystem\ECommerceSystem\ECommerceSystem\bin\Debug\net5.0\refs\Microsoft.Extensions.Logging.Abstractions.dll
 E:\ECommerceSystem\ECommerceSystem\ECommerceSystem\bin\Debug\net5.0\refs\Microsoft.Extensions.Logging.Configuration.dll
 E:\ECommerceSystem\ECommerceSystem\ECommerceSystem\bin\Debug\net5.0\refs\Microsoft.Extensions.Logging.Console.dll
 E:\ECommerceSystem\ECommerceSystem\ECommerceSystem\bin\Debug\net5.0\refs\Microsoft.Extensions.Logging.Debug.dll
-E:\ECommerceSystem\ECommerceSystem\ECommerceSystem\bin\Debug\net5.0\refs\Microsoft.Extensions.Logging.dll
 E:\ECommerceSystem\ECommerceSystem\ECommerceSystem\bin\Debug\net5.0\refs\Microsoft.Extensions.Logging.EventLog.dll
 E:\ECommerceSystem\ECommerceSystem\ECommerceSystem\bin\Debug\net5.0\refs\Microsoft.Extensions.Logging.EventSource.dll
 E:\ECommerceSystem\ECommerceSystem\ECommerceSystem\bin\Debug\net5.0\refs\Microsoft.Extensions.Logging.TraceSource.dll
@@ -923,3 +920,8 @@ E:\ECommerceSystem\ECommerceSystem\ECommerceSystem\obj\Debug\net5.0\Razor\Views\
 E:\ECommerceSystem\ECommerceSystem\ECommerceSystem\obj\Debug\net5.0\Razor\Views\Account\Login.cshtml.g.cs
 E:\ECommerceSystem\ECommerceSystem\ECommerceSystem\obj\Debug\net5.0\Razor\Views\Shared\_Layout2.cshtml.g.cs
 E:\ECommerceSystem\ECommerceSystem\ECommerceSystem\obj\Debug\net5.0\Razor\Views\Shared\CustomPartialViews\_FooterLinksPartial.cshtml.g.cs
+E:\ECommerceSystem\ECommerceSystem\ECommerceSystem\bin\Debug\net5.0\Microsoft.Extensions.Caching.Abstractions.dll
+E:\ECommerceSystem\ECommerceSystem\ECommerceSystem\bin\Debug\net5.0\Microsoft.Extensions.Logging.dll
+E:\ECommerceSystem\ECommerceSystem\ECommerceSystem\bin\Debug\net5.0\Microsoft.Extensions.Logging.Abstractions.dll
+E:\ECommerceSystem\ECommerceSystem\ECommerceSystem\bin\Debug\net5.0\ECommerceSystem.Membership.dll
+E:\ECommerceSystem\ECommerceSystem\ECommerceSystem\bin\Debug\net5.0\ECommerceSystem.Membership.pdb

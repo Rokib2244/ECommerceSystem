@@ -1,4 +1,6 @@
-﻿using ECommerceSystem.Models;
+﻿using ECommerceSystem.Areas.Models;
+using ECommerceSystem.Models;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
 using System;
@@ -6,8 +8,10 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace ECommerceSystem.Controllers
+namespace ECommerceSystem.Areas.Admin.Controllers
 {
+    //[Area("Admin"),Authorize]
+    [Area("Admin"), Authorize(Roles = "Admin")]
     public class ProductController : Controller
     {
         private readonly ILogger<ProductController> _logger;
@@ -32,7 +36,7 @@ namespace ECommerceSystem.Controllers
         {
             var dataTablesModel = new DataTablesAjaxRequestModel(Request);
             var model = new ProductListModel();
-            var data =  model.GetProducts(dataTablesModel);
+            var data = model.GetProducts(dataTablesModel);
             return Json(data);
         }
         public IActionResult CustomerPurchase()
@@ -40,10 +44,10 @@ namespace ECommerceSystem.Controllers
             var model = new CustomerPurchasedModel();
             return View(model);
         }
-       [HttpPost]
+        [HttpPost]
         public IActionResult CustomerPurchase(CustomerPurchasedModel model)
         {
-            if(ModelState.IsValid)
+            if (ModelState.IsValid)
             {
                 model.CustomerPurchased();
             }
@@ -56,9 +60,9 @@ namespace ECommerceSystem.Controllers
             return View(model);
         }
         [HttpPost, ValidateAntiForgeryToken]
-        public IActionResult Create( CreateProductModel model)
-        {            
-            if(ModelState.IsValid)
+        public IActionResult Create(CreateProductModel model)
+        {
+            if (ModelState.IsValid)
             {
                 try
                 {
@@ -70,8 +74,8 @@ namespace ECommerceSystem.Controllers
                     _logger.LogError(ex, "Create Product Failed.");
                 }
             }
-            
-            
+
+
             return View();
         }
         public IActionResult Edit(int id)
@@ -83,7 +87,7 @@ namespace ECommerceSystem.Controllers
         [HttpPost, ValidateAntiForgeryToken]
         public IActionResult Edit(EditProductModel model)
         {
-            if(ModelState.IsValid)
+            if (ModelState.IsValid)
             {
                 model.Update();
             }

@@ -5,6 +5,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using ECommerceSystem.Models;
 using ECommerceSystem.Training.BusinessObjects;
+using ECommerceSystem.Areas.Models;
 
 namespace ECommerceSystem.Profiles
 {

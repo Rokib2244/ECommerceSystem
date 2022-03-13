@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "pGNXy7+A6TIK8KPMOEJgOM1elBGPpQk+okUOBOwCZPo8XJ9w4OvpnQDDpycXEbI5UL3vJI9F2vtr2pu81Vj2Jw==",
+  "dgSpecHash": "PeV9oAqkMULpN8UaYfdJRPnsQ9NKV9Pm5P7bLYdN/R2DAPKe632fOs/ygJkcLbR2FCFARgrrWvUET9RMzHWr6A==",
   "success": true,
   "projectFilePath": "E:\\ECommerceSystem\\ECommerceSystem\\ECommerceSystem.Training\\ECommerceSystem.Training.csproj",
   "expectedPackageFiles": [
@@ -65,7 +65,7 @@
     "C:\\Users\\DELL\\.nuget\\packages\\system.io.filesystem\\4.3.0\\system.io.filesystem.4.3.0.nupkg.sha512",
     "C:\\Users\\DELL\\.nuget\\packages\\system.io.filesystem.primitives\\4.3.0\\system.io.filesystem.primitives.4.3.0.nupkg.sha512",
     "C:\\Users\\DELL\\.nuget\\packages\\system.linq\\4.3.0\\system.linq.4.3.0.nupkg.sha512",
-    "C:\\Users\\DELL\\.nuget\\packages\\system.linq.dynamic.core\\1.2.10\\system.linq.dynamic.core.1.2.10.nupkg.sha512",
+    "C:\\Users\\DELL\\.nuget\\packages\\system.linq.dynamic.core\\1.2.15\\system.linq.dynamic.core.1.2.15.nupkg.sha512",
     "C:\\Users\\DELL\\.nuget\\packages\\system.linq.expressions\\4.3.0\\system.linq.expressions.4.3.0.nupkg.sha512",
     "C:\\Users\\DELL\\.nuget\\packages\\system.net.nameresolution\\4.3.0\\system.net.nameresolution.4.3.0.nupkg.sha512",
     "C:\\Users\\DELL\\.nuget\\packages\\system.net.primitives\\4.3.0\\system.net.primitives.4.3.0.nupkg.sha512",

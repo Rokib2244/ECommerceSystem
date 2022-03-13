@@ -11,7 +11,7 @@ namespace ECommerceSystem.Training.Entities
     {
         public int Id { get; set; }
         public string CategoryName { get; set; }
-        public List<Product> Products { get; set; }
+        //public List<Product> Products { get; set; }
 
     }
 }

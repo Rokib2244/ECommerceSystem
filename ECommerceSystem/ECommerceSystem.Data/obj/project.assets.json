@@ -799,13 +799,13 @@
           "lib/netstandard1.6/System.Linq.dll": {}
         }
       },
-      "System.Linq.Dynamic.Core/1.2.10": {
+      "System.Linq.Dynamic.Core/1.2.15": {
         "type": "package",
         "compile": {
-          "lib/netcoreapp2.1/System.Linq.Dynamic.Core.dll": {}
+          "lib/net5.0/System.Linq.Dynamic.Core.dll": {}
         },
         "runtime": {
-          "lib/netcoreapp2.1/System.Linq.Dynamic.Core.dll": {}
+          "lib/net5.0/System.Linq.Dynamic.Core.dll": {}
         }
       },
       "System.Linq.Expressions/4.3.0": {
@@ -3447,10 +3447,10 @@
         "system.linq.nuspec"
       ]
     },
-    "System.Linq.Dynamic.Core/1.2.10": {
-      "sha512": "fS+z97NOfNuny6gkzHPSTIvjdWx7NcQuGB5H+h8uRpqJUm8BzhujJzl5LcfuwsTuBukxgdNiNsNUqZlV1hFiSw==",
+    "System.Linq.Dynamic.Core/1.2.15": {
+      "sha512": "46PeyhpG36FWBFShRlmumMWGqdUd8SA+NMd/DwnGzkHY3SzFPAILndgViRzcUtsHhqGBrMOI0aqhpm0u9JAitg==",
       "type": "package",
-      "path": "system.linq.dynamic.core/1.2.10",
+      "path": "system.linq.dynamic.core/1.2.15",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -3466,6 +3466,12 @@
         "lib/net46/System.Linq.Dynamic.Core.dll",
         "lib/net46/System.Linq.Dynamic.Core.pdb",
         "lib/net46/System.Linq.Dynamic.Core.xml",
+        "lib/net5.0/System.Linq.Dynamic.Core.dll",
+        "lib/net5.0/System.Linq.Dynamic.Core.pdb",
+        "lib/net5.0/System.Linq.Dynamic.Core.xml",
+        "lib/net6.0/System.Linq.Dynamic.Core.dll",
+        "lib/net6.0/System.Linq.Dynamic.Core.pdb",
+        "lib/net6.0/System.Linq.Dynamic.Core.xml",
         "lib/netcoreapp2.1/System.Linq.Dynamic.Core.dll",
         "lib/netcoreapp2.1/System.Linq.Dynamic.Core.pdb",
         "lib/netcoreapp2.1/System.Linq.Dynamic.Core.xml",
@@ -3475,11 +3481,14 @@
         "lib/netstandard2.0/System.Linq.Dynamic.Core.dll",
         "lib/netstandard2.0/System.Linq.Dynamic.Core.pdb",
         "lib/netstandard2.0/System.Linq.Dynamic.Core.xml",
+        "lib/netstandard2.1/System.Linq.Dynamic.Core.dll",
+        "lib/netstandard2.1/System.Linq.Dynamic.Core.pdb",
+        "lib/netstandard2.1/System.Linq.Dynamic.Core.xml",
         "lib/uap10.0.10240/System.Linq.Dynamic.Core.dll",
         "lib/uap10.0.10240/System.Linq.Dynamic.Core.pdb",
         "lib/uap10.0.10240/System.Linq.Dynamic.Core.pri",
         "lib/uap10.0.10240/System.Linq.Dynamic.Core.xml",
-        "system.linq.dynamic.core.1.2.10.nupkg.sha512",
+        "system.linq.dynamic.core.1.2.15.nupkg.sha512",
         "system.linq.dynamic.core.nuspec"
       ]
     },
@@ -5777,7 +5786,7 @@
     "net5.0": [
       "Autofac >= 6.3.0",
       "Microsoft.EntityFrameworkCore.SqlServer >= 5.0.8",
-      "System.Linq.Dynamic.Core >= 1.2.10"
+      "System.Linq.Dynamic.Core >= 1.2.15"
     ]
   },
   "packageFolders": {
@@ -5829,7 +5838,7 @@
           },
           "System.Linq.Dynamic.Core": {
             "target": "Package",
-            "version": "[1.2.10, )"
+            "version": "[1.2.15, )"
           }
         },
         "imports": [

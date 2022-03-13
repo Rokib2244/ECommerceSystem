@@ -1,4 +1,5 @@
 ﻿using Autofac;
+using ECommerceSystem.Areas.Models;
 using ECommerceSystem.Models;
 using System;
 using System.Collections.Generic;

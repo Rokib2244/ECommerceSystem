@@ -3,11 +3,13 @@ using Autofac.Extensions.DependencyInjection;
 using ECommerceSystem.Common;
 using ECommerceSystem.Data;
 using ECommerceSystem.Membership;
+using ECommerceSystem.Membership.BusinessObjects;
 using ECommerceSystem.Membership.Contexts;
 using ECommerceSystem.Membership.Entities;
 using ECommerceSystem.Membership.Services;
 using ECommerceSystem.Training;
 using ECommerceSystem.Training.Contexts;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpsPolicy;
@@ -129,6 +131,27 @@ namespace ECommerceSystem
                 options.Cookie.HttpOnly = true;
                 options.Cookie.IsEssential = true;
             });
+            services.AddAuthorization(options =>
+            {
+                options.AddPolicy("AdminAccess", policy =>
+                {
+                    policy.RequireAuthenticatedUser();
+                    policy.RequireRole("Admin");
+                    //policy.RequireRole("HR");
+                });
+                options.AddPolicy("RestrictedArea", policy =>
+                {
+                    policy.RequireAuthenticatedUser();
+                    policy.RequireClaim("view_permission","true");
+                });
+                options.AddPolicy("ViewPermission", policy =>
+                {
+                    policy.RequireAuthenticatedUser();
+                    policy.Requirements.Add(new ViewRequirement());
+                });
+            });
+
+            services.AddSingleton<IAuthorizationHandler, ViewRequirementHandler>();
 
             services.AddAutoMapper(AppDomain.CurrentDomain.GetAssemblies());
             services.AddControllersWithViews();
@@ -170,7 +193,7 @@ namespace ECommerceSystem
                 endpoints.MapControllerRoute(
                     name: "default",
                     //pattern: "{controller=Home}/{action=Index}/{Id?}");
-                    pattern: "{controller=Product}/{action=ShowAllProducts}/{Id?}");
+                    pattern: "{controller=Home}/{action=Incex}/{Id?}");
 
                 endpoints.MapRazorPages();
 

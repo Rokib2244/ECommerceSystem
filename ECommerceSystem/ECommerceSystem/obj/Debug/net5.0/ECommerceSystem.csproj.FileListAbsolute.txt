@@ -886,7 +886,6 @@ E:\ECommerceSystem\ECommerceSystem\ECommerceSystem\obj\Debug\net5.0\ECommerceSys
 E:\ECommerceSystem\ECommerceSystem\ECommerceSystem\obj\Debug\net5.0\Razor\Areas\Identity\Pages\_ViewStart.cshtml.g.cs
 E:\ECommerceSystem\ECommerceSystem\ECommerceSystem\obj\Debug\net5.0\Razor\Views\Home\Index.cshtml.g.cs
 E:\ECommerceSystem\ECommerceSystem\ECommerceSystem\obj\Debug\net5.0\Razor\Views\Home\Privacy.cshtml.g.cs
-E:\ECommerceSystem\ECommerceSystem\ECommerceSystem\obj\Debug\net5.0\Razor\Views\Product\ShowAllProducts.cshtml.g.cs
 E:\ECommerceSystem\ECommerceSystem\ECommerceSystem\obj\Debug\net5.0\Razor\Views\Shared\Error.cshtml.g.cs
 E:\ECommerceSystem\ECommerceSystem\ECommerceSystem\obj\Debug\net5.0\Razor\Views\Shared\_Layout.cshtml.g.cs
 E:\ECommerceSystem\ECommerceSystem\ECommerceSystem\obj\Debug\net5.0\Razor\Views\Shared\_LoginPartial.cshtml.g.cs
@@ -898,12 +897,8 @@ E:\ECommerceSystem\ECommerceSystem\ECommerceSystem\obj\Debug\net5.0\ECommerceSys
 E:\ECommerceSystem\ECommerceSystem\ECommerceSystem\obj\Debug\net5.0\ECommerceSystem.Views.pdb
 E:\ECommerceSystem\ECommerceSystem\ECommerceSystem\obj\Debug\net5.0\ECommerceSystem.csproj.CopyComplete
 E:\ECommerceSystem\ECommerceSystem\ECommerceSystem\obj\Debug\net5.0\ECommerceSystem.genruntimeconfig.cache
-E:\ECommerceSystem\ECommerceSystem\ECommerceSystem\obj\Debug\net5.0\Razor\Views\Product\Create.cshtml.g.cs
-E:\ECommerceSystem\ECommerceSystem\ECommerceSystem\obj\Debug\net5.0\Razor\Views\Product\Index.cshtml.g.cs
 E:\ECommerceSystem\ECommerceSystem\ECommerceSystem\bin\Debug\net5.0\ECommerceSystem.Common.dll
 E:\ECommerceSystem\ECommerceSystem\ECommerceSystem\bin\Debug\net5.0\ECommerceSystem.Common.pdb
-E:\ECommerceSystem\ECommerceSystem\ECommerceSystem\obj\Debug\net5.0\Razor\Views\Product\Edit.cshtml.g.cs
-E:\ECommerceSystem\ECommerceSystem\ECommerceSystem\obj\Debug\net5.0\Razor\Views\Shared\_DeletePopupPartial.cshtml.g.cs
 E:\ECommerceSystem\ECommerceSystem\ECommerceSystem\bin\Debug\net5.0\AutoMapper.dll
 E:\ECommerceSystem\ECommerceSystem\ECommerceSystem\bin\Debug\net5.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
 E:\ECommerceSystem\ECommerceSystem\ECommerceSystem\bin\Debug\net5.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
@@ -925,3 +920,15 @@ E:\ECommerceSystem\ECommerceSystem\ECommerceSystem\bin\Debug\net5.0\Microsoft.Ex
 E:\ECommerceSystem\ECommerceSystem\ECommerceSystem\bin\Debug\net5.0\Microsoft.Extensions.Logging.Abstractions.dll
 E:\ECommerceSystem\ECommerceSystem\ECommerceSystem\bin\Debug\net5.0\ECommerceSystem.Membership.dll
 E:\ECommerceSystem\ECommerceSystem\ECommerceSystem\bin\Debug\net5.0\ECommerceSystem.Membership.pdb
+E:\ECommerceSystem\ECommerceSystem\ECommerceSystem\obj\Debug\net5.0\Razor\Areas\Admin\Views\Product\Edit.cshtml.g.cs
+E:\ECommerceSystem\ECommerceSystem\ECommerceSystem\obj\Debug\net5.0\Razor\Areas\Admin\Views\Product\Index.cshtml.g.cs
+E:\ECommerceSystem\ECommerceSystem\ECommerceSystem\obj\Debug\net5.0\Razor\Areas\Admin\Views\Product\ShowAllProducts.cshtml.g.cs
+E:\ECommerceSystem\ECommerceSystem\ECommerceSystem\obj\Debug\net5.0\Razor\Areas\Admin\Views\Shared\CustomPartialViews\_FooterLinksPartial.cshtml.g.cs
+E:\ECommerceSystem\ECommerceSystem\ECommerceSystem\obj\Debug\net5.0\Razor\Areas\Admin\Views\Shared\_DeletePopupPartial.cshtml.g.cs
+E:\ECommerceSystem\ECommerceSystem\ECommerceSystem\obj\Debug\net5.0\Razor\Areas\Admin\Views\Shared\_Layout.cshtml.g.cs
+E:\ECommerceSystem\ECommerceSystem\ECommerceSystem\obj\Debug\net5.0\Razor\Areas\Admin\Views\Shared\_Layout2.cshtml.g.cs
+E:\ECommerceSystem\ECommerceSystem\ECommerceSystem\obj\Debug\net5.0\Razor\Areas\Admin\Views\Shared\_ValidationScriptsPartial.cshtml.g.cs
+E:\ECommerceSystem\ECommerceSystem\ECommerceSystem\obj\Debug\net5.0\Razor\Areas\Admin\Views\_ViewImports.cshtml.g.cs
+E:\ECommerceSystem\ECommerceSystem\ECommerceSystem\obj\Debug\net5.0\Razor\Areas\Admin\Views\_ViewStart.cshtml.g.cs
+E:\ECommerceSystem\ECommerceSystem\ECommerceSystem\obj\Debug\net5.0\Razor\Areas\Admin\Views\Product\Create.cshtml.g.cs
+E:\ECommerceSystem\ECommerceSystem\ECommerceSystem\obj\Debug\net5.0\Razor\Areas\Admin\Views\Customer\Index.cshtml.g.cs

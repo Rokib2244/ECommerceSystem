@@ -8,7 +8,7 @@ using System.ComponentModel.DataAnnotations;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace ECommerceSystem.Models
+namespace ECommerceSystem.Areas.Models
 {
     public class EditProductModel
     {

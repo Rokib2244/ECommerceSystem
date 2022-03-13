@@ -6,8 +6,9 @@ using System.Threading.Tasks;
 using Autofac;
 using ECommerceSystem.Training.BusinessObjects;
 using Microsoft.AspNetCore.Http;
+using ECommerceSystem.Models;
 
-namespace ECommerceSystem.Models
+namespace ECommerceSystem.Areas.Models
 {
     public class ProductListModel
     {

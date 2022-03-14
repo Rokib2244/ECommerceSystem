@@ -1,0 +1,12 @@
+E:\ECommerceSystem\ECommerceSystem\ECommerceSystem.Common\bin\Debug\net5.0\ECommerceSystem.Common.deps.json
+E:\ECommerceSystem\ECommerceSystem\ECommerceSystem.Common\bin\Debug\net5.0\ECommerceSystem.Common.dll
+E:\ECommerceSystem\ECommerceSystem\ECommerceSystem.Common\bin\Debug\net5.0\ref\ECommerceSystem.Common.dll
+E:\ECommerceSystem\ECommerceSystem\ECommerceSystem.Common\bin\Debug\net5.0\ECommerceSystem.Common.pdb
+E:\ECommerceSystem\ECommerceSystem\ECommerceSystem.Common\obj\Debug\net5.0\ECommerceSystem.Common.csproj.AssemblyReference.cache
+E:\ECommerceSystem\ECommerceSystem\ECommerceSystem.Common\obj\Debug\net5.0\ECommerceSystem.Common.GeneratedMSBuildEditorConfig.editorconfig
+E:\ECommerceSystem\ECommerceSystem\ECommerceSystem.Common\obj\Debug\net5.0\ECommerceSystem.Common.AssemblyInfoInputs.cache
+E:\ECommerceSystem\ECommerceSystem\ECommerceSystem.Common\obj\Debug\net5.0\ECommerceSystem.Common.AssemblyInfo.cs
+E:\ECommerceSystem\ECommerceSystem\ECommerceSystem.Common\obj\Debug\net5.0\ECommerceSystem.Common.csproj.CoreCompileInputs.cache
+E:\ECommerceSystem\ECommerceSystem\ECommerceSystem.Common\obj\Debug\net5.0\ECommerceSystem.Common.dll
+E:\ECommerceSystem\ECommerceSystem\ECommerceSystem.Common\obj\Debug\net5.0\ref\ECommerceSystem.Common.dll
+E:\ECommerceSystem\ECommerceSystem\ECommerceSystem.Common\obj\Debug\net5.0\ECommerceSystem.Common.pdb

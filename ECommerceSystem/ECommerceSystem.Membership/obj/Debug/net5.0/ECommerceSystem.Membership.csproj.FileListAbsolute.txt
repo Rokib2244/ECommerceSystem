@@ -1,0 +1,12 @@
+E:\ECommerceSystem\ECommerceSystem\ECommerceSystem.Membership\obj\Debug\net5.0\ECommerceSystem.Membership.csproj.AssemblyReference.cache
+E:\ECommerceSystem\ECommerceSystem\ECommerceSystem.Membership\obj\Debug\net5.0\ECommerceSystem.Membership.GeneratedMSBuildEditorConfig.editorconfig
+E:\ECommerceSystem\ECommerceSystem\ECommerceSystem.Membership\obj\Debug\net5.0\ECommerceSystem.Membership.AssemblyInfoInputs.cache
+E:\ECommerceSystem\ECommerceSystem\ECommerceSystem.Membership\obj\Debug\net5.0\ECommerceSystem.Membership.AssemblyInfo.cs
+E:\ECommerceSystem\ECommerceSystem\ECommerceSystem.Membership\obj\Debug\net5.0\ECommerceSystem.Membership.csproj.CoreCompileInputs.cache
+E:\ECommerceSystem\ECommerceSystem\ECommerceSystem.Membership\bin\Debug\net5.0\ECommerceSystem.Membership.deps.json
+E:\ECommerceSystem\ECommerceSystem\ECommerceSystem.Membership\bin\Debug\net5.0\ECommerceSystem.Membership.dll
+E:\ECommerceSystem\ECommerceSystem\ECommerceSystem.Membership\bin\Debug\net5.0\ref\ECommerceSystem.Membership.dll
+E:\ECommerceSystem\ECommerceSystem\ECommerceSystem.Membership\bin\Debug\net5.0\ECommerceSystem.Membership.pdb
+E:\ECommerceSystem\ECommerceSystem\ECommerceSystem.Membership\obj\Debug\net5.0\ECommerceSystem.Membership.dll
+E:\ECommerceSystem\ECommerceSystem\ECommerceSystem.Membership\obj\Debug\net5.0\ref\ECommerceSystem.Membership.dll
+E:\ECommerceSystem\ECommerceSystem\ECommerceSystem.Membership\obj\Debug\net5.0\ECommerceSystem.Membership.pdb

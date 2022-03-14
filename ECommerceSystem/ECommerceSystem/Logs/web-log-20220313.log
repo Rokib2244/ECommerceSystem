@@ -1,0 +1,28 @@
+2022-03-13 00:26:46.418 +06:00 [INF] Application Starting up
+2022-03-13 00:27:02.835 +06:00 [WRN] Role null validation failed: DuplicateRoleName.
+2022-03-13 11:39:22.522 +06:00 [INF] Application Starting up
+2022-03-13 11:40:37.019 +06:00 [INF] Application Starting up
+2022-03-13 11:42:50.888 +06:00 [WRN] Role null validation failed: DuplicateRoleName.
+2022-03-13 11:42:50.914 +06:00 [WRN] Role null validation failed: DuplicateRoleName.
+2022-03-13 11:42:50.918 +06:00 [WRN] Role null validation failed: DuplicateRoleName.
+2022-03-13 11:43:35.498 +06:00 [INF] User created a new account with password.
+2022-03-13 11:43:49.707 +06:00 [WRN] Role null validation failed: DuplicateRoleName.
+2022-03-13 11:43:49.711 +06:00 [WRN] Role null validation failed: DuplicateRoleName.
+2022-03-13 11:43:49.713 +06:00 [WRN] Role null validation failed: DuplicateRoleName.
+2022-03-13 11:43:52.066 +06:00 [INF] User logged out.
+2022-03-13 12:01:03.189 +06:00 [INF] Application Starting up
+2022-03-13 12:01:44.509 +06:00 [WRN] Invalid password for user.
+2022-03-13 12:01:44.512 +06:00 [WRN] User failed to provide the correct password.
+2022-03-13 12:02:07.918 +06:00 [WRN] Invalid password for user.
+2022-03-13 12:02:07.919 +06:00 [WRN] User failed to provide the correct password.
+2022-03-13 12:02:18.862 +06:00 [INF] User logged in.
+2022-03-13 12:03:25.960 +06:00 [INF] User logged out.
+2022-03-13 12:03:42.373 +06:00 [INF] User logged in.
+2022-03-13 13:13:03.323 +06:00 [INF] Application Starting up
+2022-03-13 13:13:18.656 +06:00 [WRN] Role null validation failed: DuplicateRoleName.
+2022-03-13 13:13:18.666 +06:00 [WRN] Role null validation failed: DuplicateRoleName.
+2022-03-13 13:13:18.668 +06:00 [WRN] Role null validation failed: DuplicateRoleName.
+2022-03-13 13:14:06.504 +06:00 [INF] User created a new account with password.
+2022-03-13 13:15:14.107 +06:00 [INF] User logged out.
+2022-03-13 13:15:26.880 +06:00 [INF] User logged in.
+2022-03-13 13:15:49.325 +06:00 [INF] Application Starting up

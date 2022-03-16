@@ -10,3 +10,15 @@ E:\ECommerceSystem\ECommerceSystem\ECommerceSystem.Common\obj\Debug\net5.0\EComm
 E:\ECommerceSystem\ECommerceSystem\ECommerceSystem.Common\obj\Debug\net5.0\ECommerceSystem.Common.dll
 E:\ECommerceSystem\ECommerceSystem\ECommerceSystem.Common\obj\Debug\net5.0\ref\ECommerceSystem.Common.dll
 E:\ECommerceSystem\ECommerceSystem\ECommerceSystem.Common\obj\Debug\net5.0\ECommerceSystem.Common.pdb
+F:\Git Test\ECommerceSystem\ECommerceSystem\ECommerceSystem.Common\bin\Debug\net5.0\ECommerceSystem.Common.deps.json
+F:\Git Test\ECommerceSystem\ECommerceSystem\ECommerceSystem.Common\bin\Debug\net5.0\ECommerceSystem.Common.dll
+F:\Git Test\ECommerceSystem\ECommerceSystem\ECommerceSystem.Common\bin\Debug\net5.0\ref\ECommerceSystem.Common.dll
+F:\Git Test\ECommerceSystem\ECommerceSystem\ECommerceSystem.Common\bin\Debug\net5.0\ECommerceSystem.Common.pdb
+F:\Git Test\ECommerceSystem\ECommerceSystem\ECommerceSystem.Common\obj\Debug\net5.0\ECommerceSystem.Common.csproj.AssemblyReference.cache
+F:\Git Test\ECommerceSystem\ECommerceSystem\ECommerceSystem.Common\obj\Debug\net5.0\ECommerceSystem.Common.GeneratedMSBuildEditorConfig.editorconfig
+F:\Git Test\ECommerceSystem\ECommerceSystem\ECommerceSystem.Common\obj\Debug\net5.0\ECommerceSystem.Common.AssemblyInfoInputs.cache
+F:\Git Test\ECommerceSystem\ECommerceSystem\ECommerceSystem.Common\obj\Debug\net5.0\ECommerceSystem.Common.AssemblyInfo.cs
+F:\Git Test\ECommerceSystem\ECommerceSystem\ECommerceSystem.Common\obj\Debug\net5.0\ECommerceSystem.Common.csproj.CoreCompileInputs.cache
+F:\Git Test\ECommerceSystem\ECommerceSystem\ECommerceSystem.Common\obj\Debug\net5.0\ECommerceSystem.Common.dll
+F:\Git Test\ECommerceSystem\ECommerceSystem\ECommerceSystem.Common\obj\Debug\net5.0\ref\ECommerceSystem.Common.dll
+F:\Git Test\ECommerceSystem\ECommerceSystem\ECommerceSystem.Common\obj\Debug\net5.0\ECommerceSystem.Common.pdb

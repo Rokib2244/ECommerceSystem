@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "T+m8D82EFvHErZMbhaB4iHYxl7bsERRvFhGhVVHvO13KBUlQU7VCM2DZM+3Lh1qiGQ/RcWnoMB/4E08zzLSsyA==",
+  "dgSpecHash": "cAE4ZcV+cYZBkiwoU8xKUPHU49f6aaTv+SvoGFUHVqbtxlcJ6NrYDND1BPw+VvqyUd1XJ09isjQq41z0/3RLdg==",
   "success": true,
-  "projectFilePath": "E:\\ECommerceSystem\\ECommerceSystem\\ECommerceSystem.Membership\\ECommerceSystem.Membership.csproj",
+  "projectFilePath": "F:\\Git Test\\ECommerceSystem\\ECommerceSystem\\ECommerceSystem.Membership\\ECommerceSystem.Membership.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\DELL\\.nuget\\packages\\autofac\\6.0.0\\autofac.6.0.0.nupkg.sha512",
     "C:\\Users\\DELL\\.nuget\\packages\\autofac.extensions.dependencyinjection\\7.2.0\\autofac.extensions.dependencyinjection.7.2.0.nupkg.sha512",

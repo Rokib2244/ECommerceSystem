@@ -7393,11 +7393,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\ECommerceSystem\\ECommerceSystem\\ECommerceSystem.Api\\ECommerceSystem.Api.csproj",
+      "projectUniqueName": "F:\\Git Test\\ECommerceSystem\\ECommerceSystem\\ECommerceSystem.Api\\ECommerceSystem.Api.csproj",
       "projectName": "ECommerceSystem.Api",
-      "projectPath": "E:\\ECommerceSystem\\ECommerceSystem\\ECommerceSystem.Api\\ECommerceSystem.Api.csproj",
+      "projectPath": "F:\\Git Test\\ECommerceSystem\\ECommerceSystem\\ECommerceSystem.Api\\ECommerceSystem.Api.csproj",
       "packagesPath": "C:\\Users\\DELL\\.nuget\\packages\\",
-      "outputPath": "E:\\ECommerceSystem\\ECommerceSystem\\ECommerceSystem.Api\\obj\\",
+      "outputPath": "F:\\Git Test\\ECommerceSystem\\ECommerceSystem\\ECommerceSystem.Api\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\DELL\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -7414,11 +7414,11 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "E:\\ECommerceSystem\\ECommerceSystem\\ECommerceSystem.Membership\\ECommerceSystem.Membership.csproj": {
-              "projectPath": "E:\\ECommerceSystem\\ECommerceSystem\\ECommerceSystem.Membership\\ECommerceSystem.Membership.csproj"
+            "F:\\Git Test\\ECommerceSystem\\ECommerceSystem\\ECommerceSystem.Membership\\ECommerceSystem.Membership.csproj": {
+              "projectPath": "F:\\Git Test\\ECommerceSystem\\ECommerceSystem\\ECommerceSystem.Membership\\ECommerceSystem.Membership.csproj"
             },
-            "E:\\ECommerceSystem\\ECommerceSystem\\ECommerceSystem.Training\\ECommerceSystem.Training.csproj": {
-              "projectPath": "E:\\ECommerceSystem\\ECommerceSystem\\ECommerceSystem.Training\\ECommerceSystem.Training.csproj"
+            "F:\\Git Test\\ECommerceSystem\\ECommerceSystem\\ECommerceSystem.Training\\ECommerceSystem.Training.csproj": {
+              "projectPath": "F:\\Git Test\\ECommerceSystem\\ECommerceSystem\\ECommerceSystem.Training\\ECommerceSystem.Training.csproj"
             }
           }
         }

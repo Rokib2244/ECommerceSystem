@@ -136,6 +136,8 @@ namespace ECommerceSystem.Api
             {               
                 options.AddPolicy("AccessPermission", policy =>
                 {
+                    policy.AuthenticationSchemes.Clear();
+                    policy.AuthenticationSchemes.Add( JwtBearerDefaults.AuthenticationScheme);
                     policy.RequireAuthenticatedUser();
                     policy.Requirements.Add(new ApiRequirement());
                 });

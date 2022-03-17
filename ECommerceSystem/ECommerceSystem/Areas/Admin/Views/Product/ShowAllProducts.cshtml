@@ -25,7 +25,12 @@
             $("#products").DataTable({
                 "processing": true,
                 "serverSide": true,
-                "ajax": "/Product/GetAllProducts",
+                "ajax": {
+                    "url": "/Admin/Product/GetAllProducts",
+                    "headers": {
+                        "Authorization":"Bearer: ......"
+                    },
+                },
 
                 "columnDefs": [
                     {

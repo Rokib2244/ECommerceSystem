@@ -1376,7 +1376,6 @@ F:\Git Test\ECommerceSystem\ECommerceSystem\ECommerceSystem\obj\Debug\net5.0\ECo
 F:\Git Test\ECommerceSystem\ECommerceSystem\ECommerceSystem\obj\Debug\net5.0\ECommerceSystem.TagHelpers.output.cache
 F:\Git Test\ECommerceSystem\ECommerceSystem\ECommerceSystem\obj\Debug\net5.0\ECommerceSystem.RazorCoreGenerate.cache
 F:\Git Test\ECommerceSystem\ECommerceSystem\ECommerceSystem\obj\Debug\net5.0\Razor\Areas\Admin\Views\Customer\Index.cshtml.g.cs
-F:\Git Test\ECommerceSystem\ECommerceSystem\ECommerceSystem\obj\Debug\net5.0\Razor\Areas\Admin\Views\Product\Create.cshtml.g.cs
 F:\Git Test\ECommerceSystem\ECommerceSystem\ECommerceSystem\obj\Debug\net5.0\Razor\Areas\Admin\Views\Product\Edit.cshtml.g.cs
 F:\Git Test\ECommerceSystem\ECommerceSystem\ECommerceSystem\obj\Debug\net5.0\Razor\Areas\Admin\Views\Product\Index.cshtml.g.cs
 F:\Git Test\ECommerceSystem\ECommerceSystem\ECommerceSystem\obj\Debug\net5.0\Razor\Areas\Admin\Views\Product\ShowAllProducts.cshtml.g.cs
@@ -1414,3 +1413,4 @@ F:\Git Test\ECommerceSystem\ECommerceSystem\ECommerceSystem\obj\Debug\net5.0\ECo
 F:\Git Test\ECommerceSystem\ECommerceSystem\ECommerceSystem\obj\Debug\net5.0\ref\ECommerceSystem.dll
 F:\Git Test\ECommerceSystem\ECommerceSystem\ECommerceSystem\obj\Debug\net5.0\ECommerceSystem.pdb
 F:\Git Test\ECommerceSystem\ECommerceSystem\ECommerceSystem\obj\Debug\net5.0\ECommerceSystem.genruntimeconfig.cache
+F:\Git Test\ECommerceSystem\ECommerceSystem\ECommerceSystem\obj\Debug\net5.0\Razor\Areas\Admin\Views\Product\Create.cshtml.g.cs

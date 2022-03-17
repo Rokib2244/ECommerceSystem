@@ -3,3 +3,70 @@
 2022-03-17 11:25:51.289 +06:00 [INF] Application Starting up
 2022-03-17 11:27:57.210 +06:00 [INF] Application Starting up
 2022-03-17 11:30:13.573 +06:00 [INF] User logged in.
+2022-03-17 12:50:19.771 +06:00 [INF] Application Starting up
+2022-03-17 12:51:26.760 +06:00 [INF] Application Starting up
+2022-03-17 12:51:34.201 +06:00 [ERR] The view 'Create' was not found. Searched locations: ["/Areas/Admin/Views/Product/Create.cshtml","/Areas/Admin/Views/Shared/Create.cshtml","/Views/Shared/Create.cshtml","/Pages/Shared/Create.cshtml"]
+2022-03-17 12:51:34.212 +06:00 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: The view 'Create' was not found. The following locations were searched:
+/Areas/Admin/Views/Product/Create.cshtml
+/Areas/Admin/Views/Shared/Create.cshtml
+/Views/Shared/Create.cshtml
+/Pages/Shared/Create.cshtml
+   at Microsoft.AspNetCore.Mvc.ViewEngines.ViewEngineResult.EnsureSuccessful(IEnumerable`1 originalLocations)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor.ExecuteAsync(ActionContext context, ViewResult result)
+   at Microsoft.AspNetCore.Mvc.ViewResult.ExecuteResultAsync(ActionContext context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResultFilterAsync>g__Awaited|29_0[TFilter,TFilterAsync](ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResultExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.ResultNext[TFilter,TFilterAsync](State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeResultFilters()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|24_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.MigrationsEndPointMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2022-03-17 12:51:36.449 +06:00 [ERR] An exception occurred while calculating the database error page content. Skipping display of the database error page.
+System.InvalidOperationException: StatusCode cannot be set because the response has already started.
+   at Microsoft.AspNetCore.Server.IIS.Core.IISHttpContext.ThrowResponseAlreadyStartedException(String name)
+   at Microsoft.AspNetCore.Server.IIS.Core.IISHttpContext.set_StatusCode(Int32 value)
+   at Microsoft.AspNetCore.Server.IIS.Core.IISHttpContext.Microsoft.AspNetCore.Http.Features.IHttpResponseFeature.set_StatusCode(Int32 value)
+   at Microsoft.AspNetCore.Http.DefaultHttpResponse.set_StatusCode(Int32 value)
+   at Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.Views.DatabaseErrorPage.ExecuteAsync()
+   at Microsoft.Extensions.RazorViews.BaseView.ExecuteAsync(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.DatabaseDeveloperPageExceptionFilter.HandleExceptionAsync(ErrorContext errorContext, Func`2 next)
+2022-03-17 12:53:53.255 +06:00 [INF] Application Starting up
+2022-03-17 12:55:04.189 +06:00 [ERR] Create Product Failed.
+System.InvalidOperationException: Cannot create a DbSet for 'Product' because this type is not included in the model for the context.
+   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.get_EntityType()
+   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.CheckState()
+   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.get_EntityQueryable()
+   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.System.Linq.IQueryable.get_Provider()
+   at System.Linq.Queryable.Where[TSource](IQueryable`1 source, Expression`1 predicate)
+   at ECommerceSystem.Data.Repository`2.GetCount(Expression`1 filter) in F:\Git Test\ECommerceSystem\ECommerceSystem\ECommerceSystem.Data\Repository.cs:line 65
+   at ECommerceSystem.Training.Services.ProductService.IsProductNameAlreadyUsed(String prdoductName) in F:\Git Test\ECommerceSystem\ECommerceSystem\ECommerceSystem.Training\Services\ProductService.cs:line 83
+   at ECommerceSystem.Training.Services.ProductService.CreateProduct(Product product) in F:\Git Test\ECommerceSystem\ECommerceSystem\ECommerceSystem.Training\Services\ProductService.cs:line 51
+   at ECommerceSystem.Areas.Models.CreateProductModel.CreateProduct() in F:\Git Test\ECommerceSystem\ECommerceSystem\ECommerceSystem\Areas\Admin\Models\CreateProductModel.cs:line 46
+   at ECommerceSystem.Areas.Admin.Controllers.ProductController.Create(CreateProductModel model) in F:\Git Test\ECommerceSystem\ECommerceSystem\ECommerceSystem\Areas\Admin\Controllers\ProductController.cs:line 70
+2022-03-17 12:58:13.886 +06:00 [ERR] Create Product Failed.
+System.InvalidOperationException: Cannot create a DbSet for 'Product' because this type is not included in the model for the context.
+   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.get_EntityType()
+   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.CheckState()
+   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.get_EntityQueryable()
+   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.System.Linq.IQueryable.get_Provider()
+   at System.Linq.Queryable.Where[TSource](IQueryable`1 source, Expression`1 predicate)
+   at ECommerceSystem.Data.Repository`2.GetCount(Expression`1 filter) in F:\Git Test\ECommerceSystem\ECommerceSystem\ECommerceSystem.Data\Repository.cs:line 65
+   at ECommerceSystem.Training.Services.ProductService.IsProductNameAlreadyUsed(String prdoductName) in F:\Git Test\ECommerceSystem\ECommerceSystem\ECommerceSystem.Training\Services\ProductService.cs:line 83
+   at ECommerceSystem.Training.Services.ProductService.CreateProduct(Product product) in F:\Git Test\ECommerceSystem\ECommerceSystem\ECommerceSystem.Training\Services\ProductService.cs:line 51
+   at ECommerceSystem.Areas.Models.CreateProductModel.CreateProduct() in F:\Git Test\ECommerceSystem\ECommerceSystem\ECommerceSystem\Areas\Admin\Models\CreateProductModel.cs:line 46
+   at ECommerceSystem.Areas.Admin.Controllers.ProductController.Create(CreateProductModel model) in F:\Git Test\ECommerceSystem\ECommerceSystem\ECommerceSystem\Areas\Admin\Controllers\ProductController.cs:line 70
+2022-03-17 13:04:35.462 +06:00 [INF] Application Starting up
+2022-03-17 13:07:56.081 +06:00 [INF] Application Starting up
+2022-03-17 13:09:29.617 +06:00 [INF] Application Starting up

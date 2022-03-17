@@ -193,7 +193,7 @@ namespace ECommerceSystem
                 endpoints.MapControllerRoute(
                     name: "default",
                     //pattern: "{controller=Home}/{action=Index}/{Id?}");
-                    pattern: "{controller=Home}/{action=Incex}/{Id?}");
+                    pattern: "{controller=Home}/{action=Index}/{Id?}");
 
                 endpoints.MapRazorPages();
 

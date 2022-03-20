@@ -9,6 +9,7 @@ using ECommerceSystem.Membership.Entities;
 using ECommerceSystem.Membership.Services;
 using ECommerceSystem.Training;
 using ECommerceSystem.Training.Contexts;
+using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
@@ -148,6 +149,13 @@ namespace ECommerceSystem
                 {
                     policy.RequireAuthenticatedUser();
                     policy.Requirements.Add(new ViewRequirement());
+                });
+                options.AddPolicy("AccessPermission", policy =>
+                {
+                    policy.AuthenticationSchemes.Clear();
+                    policy.AuthenticationSchemes.Add(JwtBearerDefaults.AuthenticationScheme);
+                    policy.RequireAuthenticatedUser();
+                    policy.Requirements.Add(new ApiRequirement());
                 });
             });
 

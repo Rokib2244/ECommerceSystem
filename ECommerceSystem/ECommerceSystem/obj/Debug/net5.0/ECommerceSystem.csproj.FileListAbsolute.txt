@@ -1414,3 +1414,4 @@ F:\Git Test\ECommerceSystem\ECommerceSystem\ECommerceSystem\obj\Debug\net5.0\ref
 F:\Git Test\ECommerceSystem\ECommerceSystem\ECommerceSystem\obj\Debug\net5.0\ECommerceSystem.pdb
 F:\Git Test\ECommerceSystem\ECommerceSystem\ECommerceSystem\obj\Debug\net5.0\ECommerceSystem.genruntimeconfig.cache
 F:\Git Test\ECommerceSystem\ECommerceSystem\ECommerceSystem\obj\Debug\net5.0\Razor\Areas\Admin\Views\Product\Create.cshtml.g.cs
+F:\Git Test\ECommerceSystem\ECommerceSystem\ECommerceSystem\bin\Debug\net5.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll

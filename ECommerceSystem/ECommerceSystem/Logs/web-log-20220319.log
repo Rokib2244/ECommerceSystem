@@ -1,0 +1,4 @@
+2022-03-19 21:37:22.003 +06:00 [INF] Application Starting up
+2022-03-19 21:38:16.066 +06:00 [WRN] Role null validation failed: DuplicateRoleName.
+2022-03-19 21:38:16.077 +06:00 [WRN] Role null validation failed: DuplicateRoleName.
+2022-03-19 21:38:16.082 +06:00 [WRN] Role null validation failed: DuplicateRoleName.

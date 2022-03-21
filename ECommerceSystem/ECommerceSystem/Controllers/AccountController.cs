@@ -49,7 +49,7 @@ namespace ECommerceSystem.Controllers
 
             await _roleManager.CreateAsync(new Role("Admin"));
             await _roleManager.CreateAsync(new Role("HR"));
-            await _roleManager.CreateAsync(new Role("Customer"));
+            //await _roleManager.CreateAsync(new Role("Customer"));
 
 
             return View(model);

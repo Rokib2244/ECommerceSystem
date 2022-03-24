@@ -146,6 +146,16 @@ namespace ECommerceSystem.Api
             services.AddSingleton<IAuthorizationHandler, ApiRequirementHandler>();
             services.AddAutoMapper(AppDomain.CurrentDomain.GetAssemblies());
             services.AddHttpContextAccessor();
+            services.AddCors(options =>
+            {
+                options.AddPolicy("AllowSites",
+                    builder =>
+                    {
+                        builder.WithOrigins("https://localhost:44361", "https://localhost:44388")
+                           .AllowAnyMethod()
+                           .AllowAnyHeader();
+                    });
+            });
 
             services.AddControllers();
             services.AddSwaggerGen(c =>
@@ -168,6 +178,7 @@ namespace ECommerceSystem.Api
             app.UseHttpsRedirection();
 
             app.UseRouting();
+            app.UseCors();
             app.UseAuthentication();
             app.UseAuthorization();
 

@@ -6140,11 +6140,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\ECommerceSystem\\ECommerceSystem\\ECommerceSystem.Training\\ECommerceSystem.Training.csproj",
+      "projectUniqueName": "F:\\Git Test\\ECommerceSystem\\ECommerceSystem\\ECommerceSystem.Training\\ECommerceSystem.Training.csproj",
       "projectName": "ECommerceSystem.Training",
-      "projectPath": "E:\\ECommerceSystem\\ECommerceSystem\\ECommerceSystem.Training\\ECommerceSystem.Training.csproj",
+      "projectPath": "F:\\Git Test\\ECommerceSystem\\ECommerceSystem\\ECommerceSystem.Training\\ECommerceSystem.Training.csproj",
       "packagesPath": "C:\\Users\\DELL\\.nuget\\packages\\",
-      "outputPath": "E:\\ECommerceSystem\\ECommerceSystem\\ECommerceSystem.Training\\obj\\",
+      "outputPath": "F:\\Git Test\\ECommerceSystem\\ECommerceSystem\\ECommerceSystem.Training\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\DELL\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -6161,11 +6161,11 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "E:\\ECommerceSystem\\ECommerceSystem\\ECommerceSystem.Common\\ECommerceSystem.Common.csproj": {
-              "projectPath": "E:\\ECommerceSystem\\ECommerceSystem\\ECommerceSystem.Common\\ECommerceSystem.Common.csproj"
+            "F:\\Git Test\\ECommerceSystem\\ECommerceSystem\\ECommerceSystem.Common\\ECommerceSystem.Common.csproj": {
+              "projectPath": "F:\\Git Test\\ECommerceSystem\\ECommerceSystem\\ECommerceSystem.Common\\ECommerceSystem.Common.csproj"
             },
-            "E:\\ECommerceSystem\\ECommerceSystem\\ECommerceSystem.Data\\ECommerceSystem.Data.csproj": {
-              "projectPath": "E:\\ECommerceSystem\\ECommerceSystem\\ECommerceSystem.Data\\ECommerceSystem.Data.csproj"
+            "F:\\Git Test\\ECommerceSystem\\ECommerceSystem\\ECommerceSystem.Data\\ECommerceSystem.Data.csproj": {
+              "projectPath": "F:\\Git Test\\ECommerceSystem\\ECommerceSystem\\ECommerceSystem.Data\\ECommerceSystem.Data.csproj"
             }
           }
         }

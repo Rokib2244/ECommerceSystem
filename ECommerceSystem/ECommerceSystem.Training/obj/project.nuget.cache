@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "PeV9oAqkMULpN8UaYfdJRPnsQ9NKV9Pm5P7bLYdN/R2DAPKe632fOs/ygJkcLbR2FCFARgrrWvUET9RMzHWr6A==",
+  "dgSpecHash": "xc6F9XXRLHnYGgxcdAXnrb33JINSMXiwRqPuQKpePufLY93OX7KNLdpNWRhh6tVsM3RhQoxgIbdILob93cp9Ag==",
   "success": true,
-  "projectFilePath": "E:\\ECommerceSystem\\ECommerceSystem\\ECommerceSystem.Training\\ECommerceSystem.Training.csproj",
+  "projectFilePath": "F:\\Git Test\\ECommerceSystem\\ECommerceSystem\\ECommerceSystem.Training\\ECommerceSystem.Training.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\DELL\\.nuget\\packages\\autofac\\6.3.0\\autofac.6.3.0.nupkg.sha512",
     "C:\\Users\\DELL\\.nuget\\packages\\automapper\\11.0.0\\automapper.11.0.0.nupkg.sha512",

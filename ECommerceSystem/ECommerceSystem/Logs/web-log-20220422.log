@@ -1,0 +1,11 @@
+2022-04-22 21:50:31.679 +06:00 [INF] Application Starting up
+2022-04-22 21:52:51.424 +06:00 [ERR] Create Product Failed.
+System.InvalidOperationException: Date should not be Past
+   at ECommerceSystem.Training.Services.ProductService.CreateProduct(Product product) in F:\Git Test\ECommerceSystem\ECommerceSystem\ECommerceSystem.Training\Services\ProductService.cs:line 54
+   at ECommerceSystem.Areas.Models.CreateProductModel.CreateProduct() in F:\Git Test\ECommerceSystem\ECommerceSystem\ECommerceSystem\Areas\Admin\Models\CreateProductModel.cs:line 46
+   at ECommerceSystem.Areas.Admin.Controllers.ProductController.Create(CreateProductModel model) in F:\Git Test\ECommerceSystem\ECommerceSystem\ECommerceSystem\Areas\Admin\Controllers\ProductController.cs:line 70
+2022-04-22 21:54:32.048 +06:00 [ERR] Create Product Failed.
+System.InvalidOperationException: Date should not be Past
+   at ECommerceSystem.Training.Services.ProductService.CreateProduct(Product product) in F:\Git Test\ECommerceSystem\ECommerceSystem\ECommerceSystem.Training\Services\ProductService.cs:line 54
+   at ECommerceSystem.Areas.Models.CreateProductModel.CreateProduct() in F:\Git Test\ECommerceSystem\ECommerceSystem\ECommerceSystem\Areas\Admin\Models\CreateProductModel.cs:line 46
+   at ECommerceSystem.Areas.Admin.Controllers.ProductController.Create(CreateProductModel model) in F:\Git Test\ECommerceSystem\ECommerceSystem\ECommerceSystem\Areas\Admin\Controllers\ProductController.cs:line 70

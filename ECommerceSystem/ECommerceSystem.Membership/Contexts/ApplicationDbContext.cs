@@ -1,4 +1,5 @@
 ﻿using ECommerceSystem.Membership.Entities;
+using ECommerceSystem.Membership.Seeds;
 using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
 using System;
@@ -34,6 +35,13 @@ namespace ECommerceSystem.Membership.Contexts
                     m => m.MigrationsAssembly(_migrationAssemblyName));
             }
             base.OnConfiguring(dbContextOptionsBuilder);
+        }
+        protected override void OnModelCreating(ModelBuilder modelBuilder)
+        {
+            modelBuilder.Entity<Role>()
+                .HasData(DataSeed.Roles);
+
+            base.OnModelCreating(modelBuilder);
         }
     }
 }

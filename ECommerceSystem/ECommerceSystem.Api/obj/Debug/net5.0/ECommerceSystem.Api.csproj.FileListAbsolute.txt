@@ -27,3 +27,32 @@ E:\ECommerceSystem\ECommerceSystem\ECommerceSystem.Api\obj\Debug\net5.0\ECommerc
 E:\ECommerceSystem\ECommerceSystem\ECommerceSystem.Api\obj\Debug\net5.0\ref\ECommerceSystem.Api.dll
 E:\ECommerceSystem\ECommerceSystem\ECommerceSystem.Api\obj\Debug\net5.0\ECommerceSystem.Api.pdb
 E:\ECommerceSystem\ECommerceSystem\ECommerceSystem.Api\obj\Debug\net5.0\ECommerceSystem.Api.genruntimeconfig.cache
+F:\Git Test\ECommerceSystem\ECommerceSystem\ECommerceSystem.Api\bin\Debug\net5.0\appsettings.Development.json
+F:\Git Test\ECommerceSystem\ECommerceSystem\ECommerceSystem.Api\bin\Debug\net5.0\appsettings.json
+F:\Git Test\ECommerceSystem\ECommerceSystem\ECommerceSystem.Api\bin\Debug\net5.0\ECommerceSystem.Api.exe
+F:\Git Test\ECommerceSystem\ECommerceSystem\ECommerceSystem.Api\bin\Debug\net5.0\ECommerceSystem.Api.deps.json
+F:\Git Test\ECommerceSystem\ECommerceSystem\ECommerceSystem.Api\bin\Debug\net5.0\ECommerceSystem.Api.runtimeconfig.json
+F:\Git Test\ECommerceSystem\ECommerceSystem\ECommerceSystem.Api\bin\Debug\net5.0\ECommerceSystem.Api.runtimeconfig.dev.json
+F:\Git Test\ECommerceSystem\ECommerceSystem\ECommerceSystem.Api\bin\Debug\net5.0\ECommerceSystem.Api.dll
+F:\Git Test\ECommerceSystem\ECommerceSystem\ECommerceSystem.Api\bin\Debug\net5.0\ref\ECommerceSystem.Api.dll
+F:\Git Test\ECommerceSystem\ECommerceSystem\ECommerceSystem.Api\bin\Debug\net5.0\ECommerceSystem.Api.pdb
+F:\Git Test\ECommerceSystem\ECommerceSystem\ECommerceSystem.Api\bin\Debug\net5.0\Microsoft.OpenApi.dll
+F:\Git Test\ECommerceSystem\ECommerceSystem\ECommerceSystem.Api\bin\Debug\net5.0\Swashbuckle.AspNetCore.Swagger.dll
+F:\Git Test\ECommerceSystem\ECommerceSystem\ECommerceSystem.Api\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+F:\Git Test\ECommerceSystem\ECommerceSystem\ECommerceSystem.Api\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+F:\Git Test\ECommerceSystem\ECommerceSystem\ECommerceSystem.Api\obj\Debug\net5.0\ECommerceSystem.Api.csproj.AssemblyReference.cache
+F:\Git Test\ECommerceSystem\ECommerceSystem\ECommerceSystem.Api\obj\Debug\net5.0\ECommerceSystem.Api.GeneratedMSBuildEditorConfig.editorconfig
+F:\Git Test\ECommerceSystem\ECommerceSystem\ECommerceSystem.Api\obj\Debug\net5.0\ECommerceSystem.Api.AssemblyInfoInputs.cache
+F:\Git Test\ECommerceSystem\ECommerceSystem\ECommerceSystem.Api\obj\Debug\net5.0\ECommerceSystem.Api.AssemblyInfo.cs
+F:\Git Test\ECommerceSystem\ECommerceSystem\ECommerceSystem.Api\obj\Debug\net5.0\ECommerceSystem.Api.csproj.CoreCompileInputs.cache
+F:\Git Test\ECommerceSystem\ECommerceSystem\ECommerceSystem.Api\obj\Debug\net5.0\ECommerceSystem.Api.MvcApplicationPartsAssemblyInfo.cs
+F:\Git Test\ECommerceSystem\ECommerceSystem\ECommerceSystem.Api\obj\Debug\net5.0\ECommerceSystem.Api.MvcApplicationPartsAssemblyInfo.cache
+F:\Git Test\ECommerceSystem\ECommerceSystem\ECommerceSystem.Api\obj\Debug\net5.0\staticwebassets\ECommerceSystem.Api.StaticWebAssets.Manifest.cache
+F:\Git Test\ECommerceSystem\ECommerceSystem\ECommerceSystem.Api\obj\Debug\net5.0\staticwebassets\ECommerceSystem.Api.StaticWebAssets.xml
+F:\Git Test\ECommerceSystem\ECommerceSystem\ECommerceSystem.Api\obj\Debug\net5.0\scopedcss\bundle\ECommerceSystem.Api.styles.css
+F:\Git Test\ECommerceSystem\ECommerceSystem\ECommerceSystem.Api\obj\Debug\net5.0\ECommerceSystem.Api.RazorTargetAssemblyInfo.cache
+F:\Git Test\ECommerceSystem\ECommerceSystem\ECommerceSystem.Api\obj\Debug\net5.0\ECommerceSystem.Api.csproj.CopyComplete
+F:\Git Test\ECommerceSystem\ECommerceSystem\ECommerceSystem.Api\obj\Debug\net5.0\ECommerceSystem.Api.dll
+F:\Git Test\ECommerceSystem\ECommerceSystem\ECommerceSystem.Api\obj\Debug\net5.0\ref\ECommerceSystem.Api.dll
+F:\Git Test\ECommerceSystem\ECommerceSystem\ECommerceSystem.Api\obj\Debug\net5.0\ECommerceSystem.Api.pdb
+F:\Git Test\ECommerceSystem\ECommerceSystem\ECommerceSystem.Api\obj\Debug\net5.0\ECommerceSystem.Api.genruntimeconfig.cache

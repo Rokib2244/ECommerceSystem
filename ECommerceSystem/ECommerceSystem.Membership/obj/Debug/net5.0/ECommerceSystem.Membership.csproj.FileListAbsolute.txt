@@ -10,3 +10,15 @@ E:\ECommerceSystem\ECommerceSystem\ECommerceSystem.Membership\bin\Debug\net5.0\E
 E:\ECommerceSystem\ECommerceSystem\ECommerceSystem.Membership\obj\Debug\net5.0\ECommerceSystem.Membership.dll
 E:\ECommerceSystem\ECommerceSystem\ECommerceSystem.Membership\obj\Debug\net5.0\ref\ECommerceSystem.Membership.dll
 E:\ECommerceSystem\ECommerceSystem\ECommerceSystem.Membership\obj\Debug\net5.0\ECommerceSystem.Membership.pdb
+F:\Git Test\ECommerceSystem\ECommerceSystem\ECommerceSystem.Membership\bin\Debug\net5.0\ECommerceSystem.Membership.deps.json
+F:\Git Test\ECommerceSystem\ECommerceSystem\ECommerceSystem.Membership\bin\Debug\net5.0\ECommerceSystem.Membership.dll
+F:\Git Test\ECommerceSystem\ECommerceSystem\ECommerceSystem.Membership\bin\Debug\net5.0\ref\ECommerceSystem.Membership.dll
+F:\Git Test\ECommerceSystem\ECommerceSystem\ECommerceSystem.Membership\bin\Debug\net5.0\ECommerceSystem.Membership.pdb
+F:\Git Test\ECommerceSystem\ECommerceSystem\ECommerceSystem.Membership\obj\Debug\net5.0\ECommerceSystem.Membership.csproj.AssemblyReference.cache
+F:\Git Test\ECommerceSystem\ECommerceSystem\ECommerceSystem.Membership\obj\Debug\net5.0\ECommerceSystem.Membership.GeneratedMSBuildEditorConfig.editorconfig
+F:\Git Test\ECommerceSystem\ECommerceSystem\ECommerceSystem.Membership\obj\Debug\net5.0\ECommerceSystem.Membership.AssemblyInfoInputs.cache
+F:\Git Test\ECommerceSystem\ECommerceSystem\ECommerceSystem.Membership\obj\Debug\net5.0\ECommerceSystem.Membership.AssemblyInfo.cs
+F:\Git Test\ECommerceSystem\ECommerceSystem\ECommerceSystem.Membership\obj\Debug\net5.0\ECommerceSystem.Membership.csproj.CoreCompileInputs.cache
+F:\Git Test\ECommerceSystem\ECommerceSystem\ECommerceSystem.Membership\obj\Debug\net5.0\ECommerceSystem.Membership.dll
+F:\Git Test\ECommerceSystem\ECommerceSystem\ECommerceSystem.Membership\obj\Debug\net5.0\ref\ECommerceSystem.Membership.dll
+F:\Git Test\ECommerceSystem\ECommerceSystem\ECommerceSystem.Membership\obj\Debug\net5.0\ECommerceSystem.Membership.pdb

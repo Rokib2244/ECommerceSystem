@@ -27,3 +27,20 @@ E:\ECommerceSystem\ECommerceSystem\ECommerceSystem.Training\bin\Debug\net5.0\ECo
 E:\ECommerceSystem\ECommerceSystem\ECommerceSystem.Training\obj\Debug\net5.0\ECommerceSystem.Training.csproj.CopyComplete
 E:\ECommerceSystem\ECommerceSystem\ECommerceSystem.Training\bin\Debug\net5.0\ECommerceSystem.Common.dll
 E:\ECommerceSystem\ECommerceSystem\ECommerceSystem.Training\bin\Debug\net5.0\ECommerceSystem.Common.pdb
+F:\Git Test\ECommerceSystem\ECommerceSystem\ECommerceSystem.Training\bin\Debug\net5.0\ECommerceSystem.Training.deps.json
+F:\Git Test\ECommerceSystem\ECommerceSystem\ECommerceSystem.Training\bin\Debug\net5.0\ECommerceSystem.Training.dll
+F:\Git Test\ECommerceSystem\ECommerceSystem\ECommerceSystem.Training\bin\Debug\net5.0\ref\ECommerceSystem.Training.dll
+F:\Git Test\ECommerceSystem\ECommerceSystem\ECommerceSystem.Training\bin\Debug\net5.0\ECommerceSystem.Training.pdb
+F:\Git Test\ECommerceSystem\ECommerceSystem\ECommerceSystem.Training\bin\Debug\net5.0\ECommerceSystem.Common.dll
+F:\Git Test\ECommerceSystem\ECommerceSystem\ECommerceSystem.Training\bin\Debug\net5.0\ECommerceSystem.Data.dll
+F:\Git Test\ECommerceSystem\ECommerceSystem\ECommerceSystem.Training\bin\Debug\net5.0\ECommerceSystem.Common.pdb
+F:\Git Test\ECommerceSystem\ECommerceSystem\ECommerceSystem.Training\bin\Debug\net5.0\ECommerceSystem.Data.pdb
+F:\Git Test\ECommerceSystem\ECommerceSystem\ECommerceSystem.Training\obj\Debug\net5.0\ECommerceSystem.Training.csproj.AssemblyReference.cache
+F:\Git Test\ECommerceSystem\ECommerceSystem\ECommerceSystem.Training\obj\Debug\net5.0\ECommerceSystem.Training.GeneratedMSBuildEditorConfig.editorconfig
+F:\Git Test\ECommerceSystem\ECommerceSystem\ECommerceSystem.Training\obj\Debug\net5.0\ECommerceSystem.Training.AssemblyInfoInputs.cache
+F:\Git Test\ECommerceSystem\ECommerceSystem\ECommerceSystem.Training\obj\Debug\net5.0\ECommerceSystem.Training.AssemblyInfo.cs
+F:\Git Test\ECommerceSystem\ECommerceSystem\ECommerceSystem.Training\obj\Debug\net5.0\ECommerceSystem.Training.csproj.CoreCompileInputs.cache
+F:\Git Test\ECommerceSystem\ECommerceSystem\ECommerceSystem.Training\obj\Debug\net5.0\ECommerceSystem.Training.csproj.CopyComplete
+F:\Git Test\ECommerceSystem\ECommerceSystem\ECommerceSystem.Training\obj\Debug\net5.0\ECommerceSystem.Training.dll
+F:\Git Test\ECommerceSystem\ECommerceSystem\ECommerceSystem.Training\obj\Debug\net5.0\ref\ECommerceSystem.Training.dll
+F:\Git Test\ECommerceSystem\ECommerceSystem\ECommerceSystem.Training\obj\Debug\net5.0\ECommerceSystem.Training.pdb

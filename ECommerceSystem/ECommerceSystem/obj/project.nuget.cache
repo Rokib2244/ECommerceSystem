@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "dzgyh4Oh1byXstxRTWH2V0lN9h+gNy9bUQs+XJuBjwKc0eN81d/4TCKW9eZJkt/H+HdXW2WJAPs7caV8ulqJSA==",
+  "dgSpecHash": "LqKJeGvDTHs8vp8we5jrU7yGQXjEq9lV1/+Rsc37JNWPQzamVGZjMQVYcAuaqUwRwlXMf93Z5eCVEj4h4Zxg3g==",
   "success": true,
-  "projectFilePath": "E:\\ECommerceSystem\\ECommerceSystem\\ECommerceSystem\\ECommerceSystem.csproj",
+  "projectFilePath": "F:\\Git Test\\ECommerceSystem\\ECommerceSystem\\ECommerceSystem\\ECommerceSystem.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\DELL\\.nuget\\packages\\autofac\\6.3.0\\autofac.6.3.0.nupkg.sha512",
     "C:\\Users\\DELL\\.nuget\\packages\\autofac.extensions.dependencyinjection\\7.2.0\\autofac.extensions.dependencyinjection.7.2.0.nupkg.sha512",
@@ -118,7 +118,7 @@
     "C:\\Users\\DELL\\.nuget\\packages\\system.io.filesystem\\4.3.0\\system.io.filesystem.4.3.0.nupkg.sha512",
     "C:\\Users\\DELL\\.nuget\\packages\\system.io.filesystem.primitives\\4.3.0\\system.io.filesystem.primitives.4.3.0.nupkg.sha512",
     "C:\\Users\\DELL\\.nuget\\packages\\system.linq\\4.3.0\\system.linq.4.3.0.nupkg.sha512",
-    "C:\\Users\\DELL\\.nuget\\packages\\system.linq.dynamic.core\\1.2.15\\system.linq.dynamic.core.1.2.15.nupkg.sha512",
+    "C:\\Users\\DELL\\.nuget\\packages\\system.linq.dynamic.core\\1.2.10\\system.linq.dynamic.core.1.2.10.nupkg.sha512",
     "C:\\Users\\DELL\\.nuget\\packages\\system.linq.expressions\\4.3.0\\system.linq.expressions.4.3.0.nupkg.sha512",
     "C:\\Users\\DELL\\.nuget\\packages\\system.memory\\4.5.4\\system.memory.4.5.4.nupkg.sha512",
     "C:\\Users\\DELL\\.nuget\\packages\\system.net.nameresolution\\4.3.0\\system.net.nameresolution.4.3.0.nupkg.sha512",

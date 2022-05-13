@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "E:\\ECommerceSystem\\ECommerceSystem\\ECommerceSystem.Api\\ECommerceSystem.Api.csproj": {}
+    "F:\\Git Test\\ECommerceSystem\\ECommerceSystem\\ECommerceSystem.Api\\ECommerceSystem.Api.csproj": {}
   },
   "projects": {
-    "E:\\ECommerceSystem\\ECommerceSystem\\ECommerceSystem.Api\\ECommerceSystem.Api.csproj": {
+    "F:\\Git Test\\ECommerceSystem\\ECommerceSystem\\ECommerceSystem.Api\\ECommerceSystem.Api.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\ECommerceSystem\\ECommerceSystem\\ECommerceSystem.Api\\ECommerceSystem.Api.csproj",
+        "projectUniqueName": "F:\\Git Test\\ECommerceSystem\\ECommerceSystem\\ECommerceSystem.Api\\ECommerceSystem.Api.csproj",
         "projectName": "ECommerceSystem.Api",
-        "projectPath": "E:\\ECommerceSystem\\ECommerceSystem\\ECommerceSystem.Api\\ECommerceSystem.Api.csproj",
+        "projectPath": "F:\\Git Test\\ECommerceSystem\\ECommerceSystem\\ECommerceSystem.Api\\ECommerceSystem.Api.csproj",
         "packagesPath": "C:\\Users\\DELL\\.nuget\\packages\\",
-        "outputPath": "E:\\ECommerceSystem\\ECommerceSystem\\ECommerceSystem.Api\\obj\\",
+        "outputPath": "F:\\Git Test\\ECommerceSystem\\ECommerceSystem\\ECommerceSystem.Api\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\DELL\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -28,11 +28,11 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "E:\\ECommerceSystem\\ECommerceSystem\\ECommerceSystem.Membership\\ECommerceSystem.Membership.csproj": {
-                "projectPath": "E:\\ECommerceSystem\\ECommerceSystem\\ECommerceSystem.Membership\\ECommerceSystem.Membership.csproj"
+              "F:\\Git Test\\ECommerceSystem\\ECommerceSystem\\ECommerceSystem.Membership\\ECommerceSystem.Membership.csproj": {
+                "projectPath": "F:\\Git Test\\ECommerceSystem\\ECommerceSystem\\ECommerceSystem.Membership\\ECommerceSystem.Membership.csproj"
               },
-              "E:\\ECommerceSystem\\ECommerceSystem\\ECommerceSystem.Training\\ECommerceSystem.Training.csproj": {
-                "projectPath": "E:\\ECommerceSystem\\ECommerceSystem\\ECommerceSystem.Training\\ECommerceSystem.Training.csproj"
+              "F:\\Git Test\\ECommerceSystem\\ECommerceSystem\\ECommerceSystem.Training\\ECommerceSystem.Training.csproj": {
+                "projectPath": "F:\\Git Test\\ECommerceSystem\\ECommerceSystem\\ECommerceSystem.Training\\ECommerceSystem.Training.csproj"
               }
             }
           }
@@ -118,14 +118,14 @@
         }
       }
     },
-    "E:\\ECommerceSystem\\ECommerceSystem\\ECommerceSystem.Common\\ECommerceSystem.Common.csproj": {
+    "F:\\Git Test\\ECommerceSystem\\ECommerceSystem\\ECommerceSystem.Common\\ECommerceSystem.Common.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\ECommerceSystem\\ECommerceSystem\\ECommerceSystem.Common\\ECommerceSystem.Common.csproj",
+        "projectUniqueName": "F:\\Git Test\\ECommerceSystem\\ECommerceSystem\\ECommerceSystem.Common\\ECommerceSystem.Common.csproj",
         "projectName": "ECommerceSystem.Common",
-        "projectPath": "E:\\ECommerceSystem\\ECommerceSystem\\ECommerceSystem.Common\\ECommerceSystem.Common.csproj",
+        "projectPath": "F:\\Git Test\\ECommerceSystem\\ECommerceSystem\\ECommerceSystem.Common\\ECommerceSystem.Common.csproj",
         "packagesPath": "C:\\Users\\DELL\\.nuget\\packages\\",
-        "outputPath": "E:\\ECommerceSystem\\ECommerceSystem\\ECommerceSystem.Common\\obj\\",
+        "outputPath": "F:\\Git Test\\ECommerceSystem\\ECommerceSystem\\ECommerceSystem.Common\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\DELL\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -182,14 +182,14 @@
         }
       }
     },
-    "E:\\ECommerceSystem\\ECommerceSystem\\ECommerceSystem.Data\\ECommerceSystem.Data.csproj": {
+    "F:\\Git Test\\ECommerceSystem\\ECommerceSystem\\ECommerceSystem.Data\\ECommerceSystem.Data.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\ECommerceSystem\\ECommerceSystem\\ECommerceSystem.Data\\ECommerceSystem.Data.csproj",
+        "projectUniqueName": "F:\\Git Test\\ECommerceSystem\\ECommerceSystem\\ECommerceSystem.Data\\ECommerceSystem.Data.csproj",
         "projectName": "ECommerceSystem.Data",
-        "projectPath": "E:\\ECommerceSystem\\ECommerceSystem\\ECommerceSystem.Data\\ECommerceSystem.Data.csproj",
+        "projectPath": "F:\\Git Test\\ECommerceSystem\\ECommerceSystem\\ECommerceSystem.Data\\ECommerceSystem.Data.csproj",
         "packagesPath": "C:\\Users\\DELL\\.nuget\\packages\\",
-        "outputPath": "E:\\ECommerceSystem\\ECommerceSystem\\ECommerceSystem.Data\\obj\\",
+        "outputPath": "F:\\Git Test\\ECommerceSystem\\ECommerceSystem\\ECommerceSystem.Data\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\DELL\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -250,14 +250,14 @@
         }
       }
     },
-    "E:\\ECommerceSystem\\ECommerceSystem\\ECommerceSystem.Membership\\ECommerceSystem.Membership.csproj": {
+    "F:\\Git Test\\ECommerceSystem\\ECommerceSystem\\ECommerceSystem.Membership\\ECommerceSystem.Membership.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\ECommerceSystem\\ECommerceSystem\\ECommerceSystem.Membership\\ECommerceSystem.Membership.csproj",
+        "projectUniqueName": "F:\\Git Test\\ECommerceSystem\\ECommerceSystem\\ECommerceSystem.Membership\\ECommerceSystem.Membership.csproj",
         "projectName": "ECommerceSystem.Membership",
-        "projectPath": "E:\\ECommerceSystem\\ECommerceSystem\\ECommerceSystem.Membership\\ECommerceSystem.Membership.csproj",
+        "projectPath": "F:\\Git Test\\ECommerceSystem\\ECommerceSystem\\ECommerceSystem.Membership\\ECommerceSystem.Membership.csproj",
         "packagesPath": "C:\\Users\\DELL\\.nuget\\packages\\",
-        "outputPath": "E:\\ECommerceSystem\\ECommerceSystem\\ECommerceSystem.Membership\\obj\\",
+        "outputPath": "F:\\Git Test\\ECommerceSystem\\ECommerceSystem\\ECommerceSystem.Membership\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\DELL\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -330,14 +330,14 @@
         }
       }
     },
-    "E:\\ECommerceSystem\\ECommerceSystem\\ECommerceSystem.Training\\ECommerceSystem.Training.csproj": {
+    "F:\\Git Test\\ECommerceSystem\\ECommerceSystem\\ECommerceSystem.Training\\ECommerceSystem.Training.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\ECommerceSystem\\ECommerceSystem\\ECommerceSystem.Training\\ECommerceSystem.Training.csproj",
+        "projectUniqueName": "F:\\Git Test\\ECommerceSystem\\ECommerceSystem\\ECommerceSystem.Training\\ECommerceSystem.Training.csproj",
         "projectName": "ECommerceSystem.Training",
-        "projectPath": "E:\\ECommerceSystem\\ECommerceSystem\\ECommerceSystem.Training\\ECommerceSystem.Training.csproj",
+        "projectPath": "F:\\Git Test\\ECommerceSystem\\ECommerceSystem\\ECommerceSystem.Training\\ECommerceSystem.Training.csproj",
         "packagesPath": "C:\\Users\\DELL\\.nuget\\packages\\",
-        "outputPath": "E:\\ECommerceSystem\\ECommerceSystem\\ECommerceSystem.Training\\obj\\",
+        "outputPath": "F:\\Git Test\\ECommerceSystem\\ECommerceSystem\\ECommerceSystem.Training\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\DELL\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -354,11 +354,11 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "E:\\ECommerceSystem\\ECommerceSystem\\ECommerceSystem.Common\\ECommerceSystem.Common.csproj": {
-                "projectPath": "E:\\ECommerceSystem\\ECommerceSystem\\ECommerceSystem.Common\\ECommerceSystem.Common.csproj"
+              "F:\\Git Test\\ECommerceSystem\\ECommerceSystem\\ECommerceSystem.Common\\ECommerceSystem.Common.csproj": {
+                "projectPath": "F:\\Git Test\\ECommerceSystem\\ECommerceSystem\\ECommerceSystem.Common\\ECommerceSystem.Common.csproj"
               },
-              "E:\\ECommerceSystem\\ECommerceSystem\\ECommerceSystem.Data\\ECommerceSystem.Data.csproj": {
-                "projectPath": "E:\\ECommerceSystem\\ECommerceSystem\\ECommerceSystem.Data\\ECommerceSystem.Data.csproj"
+              "F:\\Git Test\\ECommerceSystem\\ECommerceSystem\\ECommerceSystem.Data\\ECommerceSystem.Data.csproj": {
+                "projectPath": "F:\\Git Test\\ECommerceSystem\\ECommerceSystem\\ECommerceSystem.Data\\ECommerceSystem.Data.csproj"
               }
             }
           }

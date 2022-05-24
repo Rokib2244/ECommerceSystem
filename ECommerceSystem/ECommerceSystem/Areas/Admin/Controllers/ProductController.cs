@@ -11,8 +11,8 @@ using System.Threading.Tasks;
 namespace ECommerceSystem.Areas.Admin.Controllers
 {
     //[Area("Admin"),Authorize]
-    //[Area("Admin"), Authorize(Roles = "Admin")]
-    [Area("Admin")]
+    [Area("Admin"), Authorize(Roles = "Admin")]
+    //[Area("Admin")]
     public class ProductController : Controller
     {
         private readonly ILogger<ProductController> _logger;

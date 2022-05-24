@@ -225,13 +225,13 @@ namespace ECommerceSystem
             {
                 endpoints.MapControllerRoute(
                 name: "areas",
+                //pattern: "{area:exists}/{controller=Dashboard}/{action=Index}/{Id?}"
                 pattern: "{area:exists}/{controller=Dashboard}/{action=Index}/{Id?}"
               );
                 endpoints.MapControllerRoute(
                     name: "default",
                     //pattern: "{controller=Home}/{action=Index}/{Id?}");
                     pattern: "{controller=Home}/{action=Index}/{Id?}");
-
                 endpoints.MapRazorPages();
 
             });
